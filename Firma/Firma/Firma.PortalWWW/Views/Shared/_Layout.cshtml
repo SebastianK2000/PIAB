@@ -17,31 +17,31 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2 fixed-top shadow-sm">
             <div class="container d-flex justify-content-between align-items-center">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="iPhone">
                     <img class="logo-item" src="~/assets/logo.svg" width="200" height="48" alt="Logo">
                 </a>
 
                 <ul class="navbar-nav flex-row gap-4 text-uppercase small mx-auto">
                     <li class="nav-item">
-                        <a class="nav-item-main" href="#">Mac</a>
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Mac">Mac</a>
                     </li>                 
                     <li class="nav-item">
-                        <a class="nav-item-main" href="#">iPhone</a>
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="iPhone">iPhone</a>
                     </li>                
                     <li class="nav-item"> 
-                        <a class="nav-item-main" href="#">iPad</a>
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Ipad">iPad</a>
                     </li>                 
                     <li class="nav-item"> 
-                        <a class="nav-item-main" href="#">Watch</a>
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Watch">Watch</a>
                     </li>                
                     <li class="nav-item">
-                        <a class="nav-item-main" href="#">Support</a>
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="">Support</a>
                     </li>
                 </ul>
 
                 <div class="d-flex gap-3">
-                    <a class="nav-link-icon-main" href="#"><i class="bi bi-search"></i></a>
-                    <a class="nav-link-icon-main" href="#"><i class="bi bi-bag"></i></a>
+                    <a class="nav-link-icon-main" asp-area="" asp-controller="Home" asp-action=""><i class="bi bi-search"></i></a>
+                    <a class="nav-link-icon-main" asp-area="" asp-controller="Home" asp-action=""><i class="bi bi-bag"></i></a>
                 </div>
             </div>
         </nav>
@@ -56,34 +56,31 @@
     <footer class="site-footer text-center py-5 bg-black text-light">
         <div class="container">
             <div class="row justify-content-center">
-                <!-- Logo -->
+
                 <div class="col-12 mb-4">
                     <a href="#">
-                        <img class="logo-item" src="/assets/logo.svg" alt="Logo" width="150">
+                        <img class="logo-item" asp-area="" asp-controller="Home" asp-action="" src="/assets/logo.svg" alt="Logo" width="150">
                     </a>
                 </div>
 
-                <!-- Footer Links -->
                 <div class="col-12 col-md-8 mb-4">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">Mac</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">iPhone</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">iPad</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">Watch</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">Support</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Mac" class="text-for-footer">Mac</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="iPhone" class="text-for-footer">iPhone</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Ipad" class="text-for-footer">iPad</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Watch" class="text-for-footer">Watch</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Support</a></li>
                     </ul>
                 </div>
 
-                <!-- Footer Policies -->
                 <div class="col-12 mb-4">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">Terms of Service</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="#" class="text-for-footer">Cookie Policy</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Terms of Service</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Cookie Policy</a></li>
                     </ul>
                 </div>
 
-                <!-- Copyright -->
                 <div class="col-12">
                     <p>&copy; 2025 Tech Stack. All Rights Reserved.</p>
                 </div>

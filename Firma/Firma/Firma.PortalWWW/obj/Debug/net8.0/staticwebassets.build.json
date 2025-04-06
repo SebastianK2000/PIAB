@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "exfHSfVgeahdq6OWi5+e7IijeXDfOHnYMZEU9zZYUck=",
+  "Hash": "nGCFlSql4GvKqEOyshvw4Tqc2JM9oeT88vYxx5RJ6P0=",
   "Source": "Firma.PortalWWW",
   "BasePath": "_content/Firma.PortalWWW",
   "Mode": "Default",
@@ -59,6 +59,195 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Firma.PortalWWW.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\imac.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/imac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnrfpim49f",
+      "Integrity": "OSWbySOlzdyZ7o7YAH47wCJJ838pblzduc9ysHkfRLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imac.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipad.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/ipad#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5cxrxaae6",
+      "Integrity": "KwVKsainfzX8qHTH39phLxdp0E0MZZEWqL9sYmaR2Nc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ipad.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadair.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/ipadair#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i8cf7xo26",
+      "Integrity": "9k6bhZ/pj26eItquV8GXw2GYJ58tI8CLnezq3L5GjZA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ipadair.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadmini.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/ipadmini#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xfovf9jdzc",
+      "Integrity": "fTDxVxDok+4G+erYFoNoJf9TknAe0YMYYqRgS3p0Vls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ipadmini.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadpro.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/ipadpro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xec5mcnhlu",
+      "Integrity": "GQRR4Kt5jq51chDzNfmN5LoNTggHA00f1dZjlI0Eqek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ipadpro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone15.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/iphone15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i7mgxcuhe1",
+      "Integrity": "kppepo80Zb7yR0Gdw0aWxlw5DeUe3ZM1tKUYJF0350o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\iphone15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone16.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/iphone16#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "36ardxo0jn",
+      "Integrity": "xcLHRfVOrZiVQPpy8Qam9CtMlysY5KhzODkpvXQpF0U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\iphone16.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone16e.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/iphone16e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fw849j9igw",
+      "Integrity": "D+tr0sk4lkh8FBgnciBYuNHmPFHZi6LqnEk9d/Tzw5Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\iphone16e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iPhone16pro.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/iPhone16pro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bp5bxz24p5",
+      "Integrity": "YcHxBZ1YWN3BmGSJPB7bWWvXzTow2JB7cyCP3Pn3+vU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\iPhone16pro.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\logo.svg",
       "SourceId": "Firma.PortalWWW",
       "SourceType": "Discovered",
@@ -73,11 +262,158 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kaxl0sm0da",
-      "Integrity": "NBSmv5HGH53XQHg5FiQ/RzpH1WN+5RBDWaDKQmNtkdM=",
+      "Fingerprint": "skip8eo0k4",
+      "Integrity": "TKqxkdNvD/cunqw4dwF9oLyIJ0F4/Ant59wqRxyKCQk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\MacAir.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/MacAir#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "plwjq7htgs",
+      "Integrity": "M64fq5ikjfPNSgpD/hKlwrt6ZEoZvQBVeFeOqvshHkw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\MacAir.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\macmini.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/macmini#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dd8yto4cro",
+      "Integrity": "H8QuaGd7L8y7F7igRE7R+nazvJxsF99cPsJOs3E0Vog=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\macmini.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\macpro.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/macpro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fzx138g8j",
+      "Integrity": "b8F9w185Qc+1hQRhVT3QtlBcAj6zPvqBORn1qRa+lqg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\macpro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watch10.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/watch10#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kthj1u6u5",
+      "Integrity": "56aJyMG+VDdHVMgjeFYDvHg80QItI8rcSiz69h3e7bY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\watch10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watchse.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/watchse#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cu9mfjctge",
+      "Integrity": "rIkrdEgUCWzvvFOrShpryqW7jov03isO2Z5yvQEgZaA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\watchse.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watchultra2.jpg",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "assets/watchultra2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8k53a36p8h",
+      "Integrity": "6BQtTe+8j6lHUUTa60wbIq0nKGJhH+3NFCBJbZvagnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\watchultra2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "css/iphone#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pxvozttgmi",
+      "Integrity": "rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\iphone.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\site.css",
@@ -94,11 +430,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wgld3plf9t",
-      "Integrity": "EFtQpgyzDFHrdMzUVxEA4toAQciqn1oTMPeLtJKSW+M=",
+      "Fingerprint": "2hp8fsbdr1",
+      "Integrity": "9oGe84FgUXZQT/THXESy7id00cjMoZzOh3iQ72XQHKI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\tabs.css",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "css/tabs#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "36tpglf68q",
+      "Integrity": "FaxcKzC3fmbV4M5xvaHs38NtHz3XRwPMRsZGc01lmsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tabs.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\watch.css",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "css/watch#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2oxylyim95",
+      "Integrity": "8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\watch.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\favicon.ico",
@@ -1342,8 +1720,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/logo.kaxl0sm0da.svg",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\logo.svg",
+      "Route": "assets/imac.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\imac.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1352,19 +1730,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19994"
+          "Value": "48094"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/svg+xml"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"NBSmv5HGH53XQHg5FiQ/RzpH1WN+5RBDWaDKQmNtkdM=\""
+          "Value": "\"OSWbySOlzdyZ7o7YAH47wCJJ838pblzduc9ysHkfRLU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 09:59:00 GMT"
+          "Value": "Sun, 06 Apr 2025 13:39:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OSWbySOlzdyZ7o7YAH47wCJJ838pblzduc9ysHkfRLU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/imac.rnrfpim49f.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\imac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OSWbySOlzdyZ7o7YAH47wCJJ838pblzduc9ysHkfRLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1374,7 +1789,708 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kaxl0sm0da"
+          "Value": "rnrfpim49f"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/imac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OSWbySOlzdyZ7o7YAH47wCJJ838pblzduc9ysHkfRLU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipad.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KwVKsainfzX8qHTH39phLxdp0E0MZZEWqL9sYmaR2Nc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KwVKsainfzX8qHTH39phLxdp0E0MZZEWqL9sYmaR2Nc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipad.x5cxrxaae6.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KwVKsainfzX8qHTH39phLxdp0E0MZZEWqL9sYmaR2Nc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5cxrxaae6"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ipad.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KwVKsainfzX8qHTH39phLxdp0E0MZZEWqL9sYmaR2Nc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipadair.2i8cf7xo26.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadair.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9k6bhZ/pj26eItquV8GXw2GYJ58tI8CLnezq3L5GjZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i8cf7xo26"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ipadair.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9k6bhZ/pj26eItquV8GXw2GYJ58tI8CLnezq3L5GjZA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipadair.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadair.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9k6bhZ/pj26eItquV8GXw2GYJ58tI8CLnezq3L5GjZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9k6bhZ/pj26eItquV8GXw2GYJ58tI8CLnezq3L5GjZA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipadmini.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadmini.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fTDxVxDok+4G+erYFoNoJf9TknAe0YMYYqRgS3p0Vls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fTDxVxDok+4G+erYFoNoJf9TknAe0YMYYqRgS3p0Vls="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipadmini.xfovf9jdzc.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadmini.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fTDxVxDok+4G+erYFoNoJf9TknAe0YMYYqRgS3p0Vls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfovf9jdzc"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ipadmini.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fTDxVxDok+4G+erYFoNoJf9TknAe0YMYYqRgS3p0Vls="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipadpro.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadpro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQRR4Kt5jq51chDzNfmN5LoNTggHA00f1dZjlI0Eqek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQRR4Kt5jq51chDzNfmN5LoNTggHA00f1dZjlI0Eqek="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ipadpro.xec5mcnhlu.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\ipadpro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQRR4Kt5jq51chDzNfmN5LoNTggHA00f1dZjlI0Eqek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:57:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xec5mcnhlu"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ipadpro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQRR4Kt5jq51chDzNfmN5LoNTggHA00f1dZjlI0Eqek="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iphone15.i7mgxcuhe1.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kppepo80Zb7yR0Gdw0aWxlw5DeUe3ZM1tKUYJF0350o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:02:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7mgxcuhe1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/iphone15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kppepo80Zb7yR0Gdw0aWxlw5DeUe3ZM1tKUYJF0350o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iphone15.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kppepo80Zb7yR0Gdw0aWxlw5DeUe3ZM1tKUYJF0350o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:02:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kppepo80Zb7yR0Gdw0aWxlw5DeUe3ZM1tKUYJF0350o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iphone16.36ardxo0jn.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcLHRfVOrZiVQPpy8Qam9CtMlysY5KhzODkpvXQpF0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "36ardxo0jn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/iphone16.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcLHRfVOrZiVQPpy8Qam9CtMlysY5KhzODkpvXQpF0U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iphone16.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcLHRfVOrZiVQPpy8Qam9CtMlysY5KhzODkpvXQpF0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcLHRfVOrZiVQPpy8Qam9CtMlysY5KhzODkpvXQpF0U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iphone16e.fw849j9igw.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone16e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D+tr0sk4lkh8FBgnciBYuNHmPFHZi6LqnEk9d/Tzw5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:02:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fw849j9igw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/iphone16e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D+tr0sk4lkh8FBgnciBYuNHmPFHZi6LqnEk9d/Tzw5Y="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iphone16e.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iphone16e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D+tr0sk4lkh8FBgnciBYuNHmPFHZi6LqnEk9d/Tzw5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:02:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D+tr0sk4lkh8FBgnciBYuNHmPFHZi6LqnEk9d/Tzw5Y="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iPhone16pro.bp5bxz24p5.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iPhone16pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YcHxBZ1YWN3BmGSJPB7bWWvXzTow2JB7cyCP3Pn3+vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bp5bxz24p5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/iPhone16pro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YcHxBZ1YWN3BmGSJPB7bWWvXzTow2JB7cyCP3Pn3+vU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/iPhone16pro.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\iPhone16pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YcHxBZ1YWN3BmGSJPB7bWWvXzTow2JB7cyCP3Pn3+vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YcHxBZ1YWN3BmGSJPB7bWWvXzTow2JB7cyCP3Pn3+vU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/logo.skip8eo0k4.svg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKqxkdNvD/cunqw4dwF9oLyIJ0F4/Ant59wqRxyKCQk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 12:12:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "skip8eo0k4"
         },
         {
           "Name": "label",
@@ -1382,7 +2498,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NBSmv5HGH53XQHg5FiQ/RzpH1WN+5RBDWaDKQmNtkdM="
+          "Value": "sha256-TKqxkdNvD/cunqw4dwF9oLyIJ0F4/Ant59wqRxyKCQk="
         }
       ]
     },
@@ -1397,7 +2513,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19994"
+          "Value": "20030"
         },
         {
           "Name": "Content-Type",
@@ -1405,11 +2521,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NBSmv5HGH53XQHg5FiQ/RzpH1WN+5RBDWaDKQmNtkdM=\""
+          "Value": "\"TKqxkdNvD/cunqw4dwF9oLyIJ0F4/Ant59wqRxyKCQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 09:59:00 GMT"
+          "Value": "Sun, 06 Apr 2025 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1419,7 +2535,626 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NBSmv5HGH53XQHg5FiQ/RzpH1WN+5RBDWaDKQmNtkdM="
+          "Value": "sha256-TKqxkdNvD/cunqw4dwF9oLyIJ0F4/Ant59wqRxyKCQk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/MacAir.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\MacAir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M64fq5ikjfPNSgpD/hKlwrt6ZEoZvQBVeFeOqvshHkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M64fq5ikjfPNSgpD/hKlwrt6ZEoZvQBVeFeOqvshHkw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/MacAir.plwjq7htgs.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\MacAir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M64fq5ikjfPNSgpD/hKlwrt6ZEoZvQBVeFeOqvshHkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plwjq7htgs"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/MacAir.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M64fq5ikjfPNSgpD/hKlwrt6ZEoZvQBVeFeOqvshHkw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/macmini.dd8yto4cro.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\macmini.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8QuaGd7L8y7F7igRE7R+nazvJxsF99cPsJOs3E0Vog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dd8yto4cro"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/macmini.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8QuaGd7L8y7F7igRE7R+nazvJxsF99cPsJOs3E0Vog="
+        }
+      ]
+    },
+    {
+      "Route": "assets/macmini.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\macmini.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8QuaGd7L8y7F7igRE7R+nazvJxsF99cPsJOs3E0Vog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8QuaGd7L8y7F7igRE7R+nazvJxsF99cPsJOs3E0Vog="
+        }
+      ]
+    },
+    {
+      "Route": "assets/macpro.5fzx138g8j.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\macpro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b8F9w185Qc+1hQRhVT3QtlBcAj6zPvqBORn1qRa+lqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fzx138g8j"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/macpro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b8F9w185Qc+1hQRhVT3QtlBcAj6zPvqBORn1qRa+lqg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/macpro.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\macpro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b8F9w185Qc+1hQRhVT3QtlBcAj6zPvqBORn1qRa+lqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b8F9w185Qc+1hQRhVT3QtlBcAj6zPvqBORn1qRa+lqg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/watch10.7kthj1u6u5.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watch10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"56aJyMG+VDdHVMgjeFYDvHg80QItI8rcSiz69h3e7bY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kthj1u6u5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/watch10.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-56aJyMG+VDdHVMgjeFYDvHg80QItI8rcSiz69h3e7bY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/watch10.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watch10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"56aJyMG+VDdHVMgjeFYDvHg80QItI8rcSiz69h3e7bY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-56aJyMG+VDdHVMgjeFYDvHg80QItI8rcSiz69h3e7bY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/watchse.cu9mfjctge.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watchse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rIkrdEgUCWzvvFOrShpryqW7jov03isO2Z5yvQEgZaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:53:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cu9mfjctge"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/watchse.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rIkrdEgUCWzvvFOrShpryqW7jov03isO2Z5yvQEgZaA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/watchse.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watchse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rIkrdEgUCWzvvFOrShpryqW7jov03isO2Z5yvQEgZaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:53:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rIkrdEgUCWzvvFOrShpryqW7jov03isO2Z5yvQEgZaA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/watchultra2.8k53a36p8h.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watchultra2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6BQtTe+8j6lHUUTa60wbIq0nKGJhH+3NFCBJbZvagnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8k53a36p8h"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/watchultra2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BQtTe+8j6lHUUTa60wbIq0nKGJhH+3NFCBJbZvagnk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/watchultra2.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\watchultra2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6BQtTe+8j6lHUUTa60wbIq0nKGJhH+3NFCBJbZvagnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BQtTe+8j6lHUUTa60wbIq0nKGJhH+3NFCBJbZvagnk="
+        }
+      ]
+    },
+    {
+      "Route": "css/iphone.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I="
+        }
+      ]
+    },
+    {
+      "Route": "css/iphone.pxvozttgmi.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pxvozttgmi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/iphone.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.2hp8fsbdr1.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9oGe84FgUXZQT/THXESy7id00cjMoZzOh3iQ72XQHKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 17:06:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hp8fsbdr1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9oGe84FgUXZQT/THXESy7id00cjMoZzOh3iQ72XQHKI="
         }
       ]
     },
@@ -1434,7 +3169,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11824"
+          "Value": "11874"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +3177,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EFtQpgyzDFHrdMzUVxEA4toAQciqn1oTMPeLtJKSW+M=\""
+          "Value": "\"9oGe84FgUXZQT/THXESy7id00cjMoZzOh3iQ72XQHKI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 11:15:50 GMT"
+          "Value": "Sun, 06 Apr 2025 17:06:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,13 +3191,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EFtQpgyzDFHrdMzUVxEA4toAQciqn1oTMPeLtJKSW+M="
+          "Value": "sha256-9oGe84FgUXZQT/THXESy7id00cjMoZzOh3iQ72XQHKI="
         }
       ]
     },
     {
-      "Route": "css/site.wgld3plf9t.css",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\site.css",
+      "Route": "css/tabs.36tpglf68q.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\tabs.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1471,7 +3206,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11824"
+          "Value": "1501"
         },
         {
           "Name": "Content-Type",
@@ -1479,11 +3214,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EFtQpgyzDFHrdMzUVxEA4toAQciqn1oTMPeLtJKSW+M=\""
+          "Value": "\"FaxcKzC3fmbV4M5xvaHs38NtHz3XRwPMRsZGc01lmsc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 11:15:50 GMT"
+          "Value": "Sun, 06 Apr 2025 17:09:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1493,15 +3228,134 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wgld3plf9t"
+          "Value": "36tpglf68q"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/tabs.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EFtQpgyzDFHrdMzUVxEA4toAQciqn1oTMPeLtJKSW+M="
+          "Value": "sha256-FaxcKzC3fmbV4M5xvaHs38NtHz3XRwPMRsZGc01lmsc="
+        }
+      ]
+    },
+    {
+      "Route": "css/tabs.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\tabs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FaxcKzC3fmbV4M5xvaHs38NtHz3XRwPMRsZGc01lmsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 17:09:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FaxcKzC3fmbV4M5xvaHs38NtHz3XRwPMRsZGc01lmsc="
+        }
+      ]
+    },
+    {
+      "Route": "css/watch.2oxylyim95.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\watch.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2oxylyim95"
+        },
+        {
+          "Name": "label",
+          "Value": "css/watch.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII="
+        }
+      ]
+    },
+    {
+      "Route": "css/watch.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\watch.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 13:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII="
         }
       ]
     },

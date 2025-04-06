@@ -37,6 +37,10 @@ namespace Firma.PortalWWW.Controllers
         {
             return View();
         }
+        public IActionResult Ipad()
+        {
+            return View();
+        }
 
         public IActionResult Accessories()
         {
