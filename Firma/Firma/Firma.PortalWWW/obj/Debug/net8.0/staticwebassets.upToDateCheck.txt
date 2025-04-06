@@ -1,4 +1,3 @@
-wwwroot\assets\logo.png
 wwwroot\assets\logo.svg
 wwwroot\css\site.css
 wwwroot\favicon.ico

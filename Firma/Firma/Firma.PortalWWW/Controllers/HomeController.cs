@@ -23,7 +23,22 @@ namespace Firma.PortalWWW.Controllers
             return View();
         }
 
-        public IActionResult Product()
+        public IActionResult iPhone()
+        {
+            return View();
+        }
+
+        public IActionResult Mac()
+        {
+            return View();
+        }
+
+        public IActionResult Watch()
+        {
+            return View();
+        }
+
+        public IActionResult Accessories()
         {
             return View();
         }
