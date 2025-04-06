@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma.Intranet", "Firma.Intranet\Firma.Intranet.csproj", "{FC2D8779-C67D-4921-8596-98BA69F63D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma.PortalWWW", "Firma.PortalWWW\Firma.PortalWWW.csproj", "{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2D8779-C67D-4921-8596-98BA69F63D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2D8779-C67D-4921-8596-98BA69F63D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2D8779-C67D-4921-8596-98BA69F63D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2D8779-C67D-4921-8596-98BA69F63D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34989A28-0D2E-40DD-8DE2-EBA4652FE91C}
+	EndGlobalSection
+EndGlobal

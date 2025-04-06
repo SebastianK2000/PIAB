@@ -1,0 +1,18 @@
+W Layout kiedy zapiszemy funkcję @RenderBody() będzie ona w tym miejscu renderowała kontent strony (reszta to będzie layout).
+
+MVC (Model - View - Controller) 
+Model - zawiera klasy C# logiki biznesowej oraz klasy do bazy danych. 
+View - to są widoki wytane w HTML lub React.
+Controller - zawiera klasy C# pośrednicze między Modelem a View.
+
+Jeden kontroler może działać dla wielu widoków.
+
+Solucja - zbiór projektów.
+
+
+Solucja (Firma) będzie zawierała kilka projektów: 
+- Firma.PortalWWW - to będzie aplikacja dla klientów
+- Firma.Intranet - aplikacja dla pracowników
+- Baza danych 
+- Abstrakcyjna 
+- Logika biznesowa
