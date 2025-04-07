@@ -3,44 +3,89 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Firma.Intranet</title>
+    <title>@ViewData["Title"] - Firma.PortalWWW</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Firma.Intranet.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Firma.PortalWWW.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
 </head>
-<body>
+
+<body class="body-fixed">
+
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Firma.Intranet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2 fixed-top shadow-sm">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="iPhone">
+                    <img class="logo-item" src="~/assets/logo.svg" width="200" height="48" alt="Logo">
+                </a>
+
+                <ul class="navbar-nav flex-row gap-4 text-uppercase small mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Reports">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Users">Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item-main" asp-area="" asp-controller="Home" asp-action="Orders">Orders</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex gap-3">
+                    <a class="nav-link-icon-main" asp-area="" asp-controller="Home" asp-action=""><i class="bi bi-search"></i></a>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="site-footer text-center py-5 bg-black text-light">
         <div class="container">
-            &copy; 2025 - Firma.Intranet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row justify-content-center">
+
+                <div class="col-12 mb-4">
+                    <a href="#">
+                        <img class="logo-item" asp-area="" asp-controller="Home" asp-action="" src="/assets/logo.svg" alt="Logo" width="150">
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-8 mb-4">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Products" class="text-for-footer">Products</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Users" class="text-for-footer">Users</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Orders" class="text-for-footer">Orders</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="Reports" class="text-for-footer">Reports</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Terms of Service</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a asp-area="" asp-controller="Home" asp-action="" class="text-for-footer">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <p>&copy; 2025 Tech Stack. All Rights Reserved.</p>
+                </div>
+            </div>
         </div>
     </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
