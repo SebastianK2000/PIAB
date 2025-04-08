@@ -174,11 +174,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>skip8eo0k4</Fingerprint>
-      <Integrity>TKqxkdNvD/cunqw4dwF9oLyIJ0F4/Ant59wqRxyKCQk=</Integrity>
+      <Fingerprint>ip7o5jveje</Fingerprint>
+      <Integrity>+gG/+11qsNa0hjAHEihSSqI4TSJcuz4s9crjV353azw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\logo.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\logo-admin.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Firma.PortalWWW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Firma.PortalWWW</BasePath>
+      <RelativePath>assets/logo-admin.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vn4v8n2n39</Fingerprint>
+      <Integrity>pTILm2ig8VrvypoqzIj65RzxUMj5H94G+RJhVc1NXfQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\logo-admin.svg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\MacAir.jpg'))">
       <SourceType>Package</SourceType>
@@ -318,8 +336,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2hp8fsbdr1</Fingerprint>
-      <Integrity>9oGe84FgUXZQT/THXESy7id00cjMoZzOh3iQ72XQHKI=</Integrity>
+      <Fingerprint>wx63a4ar1f</Fingerprint>
+      <Integrity>HICui9E25+qhwuiOdiRuhidRULK8+yN9U/TVsBLpu/U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -336,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>36tpglf68q</Fingerprint>
-      <Integrity>FaxcKzC3fmbV4M5xvaHs38NtHz3XRwPMRsZGc01lmsc=</Integrity>
+      <Fingerprint>fc9iyeojad</Fingerprint>
+      <Integrity>MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\tabs.css'))</OriginalItemSpec>

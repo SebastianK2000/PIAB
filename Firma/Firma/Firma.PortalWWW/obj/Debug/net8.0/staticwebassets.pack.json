@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\assets\\iphone16e.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\logo-admin.svg",
+      "PackagePath": "staticwebassets\\assets\\logo-admin.svg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\assets\\logo.svg",
       "PackagePath": "staticwebassets\\assets\\logo.svg"
     },

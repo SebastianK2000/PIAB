@@ -8,6 +8,7 @@ wwwroot\assets\iphone16.jpg
 wwwroot\assets\iphone16e.jpg
 wwwroot\assets\iPhone16pro.jpg
 wwwroot\assets\logo.svg
+wwwroot\assets\logo-admin.svg
 wwwroot\assets\MacAir.jpg
 wwwroot\assets\macmini.jpg
 wwwroot\assets\macpro.jpg

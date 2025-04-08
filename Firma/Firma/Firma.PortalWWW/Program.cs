@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Firma.PortalWWW.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<FirmaPortalWWWContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("FirmaPortalWWWContext") ?? throw new InvalidOperationException("Connection string 'FirmaPortalWWWContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
