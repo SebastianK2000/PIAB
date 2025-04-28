@@ -1,69 +1,66 @@
 ﻿@model Firma.Data.Data.Sklep.Orders
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Delete Order";
 }
 
-<h1>Delete</h1>
+@section Styles {
+    <link rel="stylesheet" href="~/css/delete.css" />
+}
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Orders</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Number)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Number)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Date)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Date)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.User)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.User)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PaymentMethod)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PaymentMethod)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DeliveryMethod)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DeliveryMethod)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Product)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Product.ImageUrl)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="IdOrders" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+<div class="container">
+    <div class="title text-danger">Delete Order</div>
+
+    <div class="content">
+        <h4 class="mb-4">Are you sure you want to delete this?</h4>
+        <div class="content">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.Number)</span>
+                    <div>@Html.DisplayFor(model => model.Number)</div>
+                </div>
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.Date)</span>
+                    <div>@Html.DisplayFor(model => model.Date)</div>
+                </div>
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.User)</span>
+                    <div>@Html.DisplayFor(model => model.User)</div>
+                </div>
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.Email)</span>
+                    <div>@Html.DisplayFor(model => model.Email)</div>
+                </div>
+                <div class="input-box" style="flex: 1 1 100%;">
+                    <span class="details">@Html.DisplayNameFor(model => model.Address)</span>
+                    <div>@Html.DisplayFor(model => model.Address)</div>
+                </div>
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.PaymentMethod)</span>
+                    <div>@Html.DisplayFor(model => model.PaymentMethod)</div>
+                </div>
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.DeliveryMethod)</span>
+                    <div>@Html.DisplayFor(model => model.DeliveryMethod)</div>
+                </div>
+                <div class="input-box">
+                    <span class="details">@Html.DisplayNameFor(model => model.Product)</span>
+                    <div>@Html.DisplayFor(model => model.Product.ImageUrl)</div>
+                </div>
+            </div>
+            <form asp-action="Delete" class="mt-4">
+                <input type="hidden" asp-for="IdOrders" />
+                <div class="button">
+                    <input type="submit" value="Confirm Delete" class="btn btn-danger" />
+                    <a asp-action="Index" class="btn btn-secondary ml-2">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

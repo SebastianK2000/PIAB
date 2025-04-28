@@ -10,7 +10,7 @@
         @foreach(var item in Model)
         {
             <li class="nav-item">
-                <a class="nav-item-main" asp-area="" asp-controller="Mac" asp-action="Index">@item.LinkTytul</a>
+                <a class="nav-item-main" asp-area="" asp-controller="Mac" asp-action="Index" asp-route-id="@item.IdStrony">@item.LinkTytul</a>
             </li>
         }
     </ul>

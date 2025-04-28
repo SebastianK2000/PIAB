@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "evOaVU4+NUkjFBzHu72oiLNVG16Z/bSvieDolBz1QWw=",
+  "Hash": "qi7EWuX4MB/ZRxVqYEQGsU5STmq2wmoHnkcFzsLogiY=",
   "Source": "Firma.Intranet",
   "BasePath": "_content/Firma.Intranet",
   "Mode": "Default",
@@ -94,11 +94,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ogmqttv4mb",
-      "Integrity": "yEqTOjZk8zuSEEtmCtwGTJDAbOkcafp8VSr/KUudi3I=",
+      "Fingerprint": "hsnng277ry",
+      "Integrity": "MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\create.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\delete.css",
+      "SourceId": "Firma.Intranet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\",
+      "BasePath": "_content/Firma.Intranet",
+      "RelativePath": "css/delete#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "br9wrfc1oy",
+      "Integrity": "Z5BdwOm28F0tZBR2H3cdKT0VuaXfwasmnMtgqemLd1U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\delete.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\site.css",
@@ -1455,7 +1476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2632"
+          "Value": "5270"
         },
         {
           "Name": "Content-Type",
@@ -1463,11 +1484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yEqTOjZk8zuSEEtmCtwGTJDAbOkcafp8VSr/KUudi3I=\""
+          "Value": "\"MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 15:58:44 GMT"
+          "Value": "Mon, 28 Apr 2025 20:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1477,12 +1498,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yEqTOjZk8zuSEEtmCtwGTJDAbOkcafp8VSr/KUudi3I="
+          "Value": "sha256-MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q="
         }
       ]
     },
     {
-      "Route": "css/create.ogmqttv4mb.css",
+      "Route": "css/create.hsnng277ry.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\create.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1492,7 +1513,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2632"
+          "Value": "5270"
         },
         {
           "Name": "Content-Type",
@@ -1500,11 +1521,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yEqTOjZk8zuSEEtmCtwGTJDAbOkcafp8VSr/KUudi3I=\""
+          "Value": "\"MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 15:58:44 GMT"
+          "Value": "Mon, 28 Apr 2025 20:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1514,7 +1535,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ogmqttv4mb"
+          "Value": "hsnng277ry"
         },
         {
           "Name": "label",
@@ -1522,7 +1543,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yEqTOjZk8zuSEEtmCtwGTJDAbOkcafp8VSr/KUudi3I="
+          "Value": "sha256-MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/delete.br9wrfc1oy.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\delete.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5BdwOm28F0tZBR2H3cdKT0VuaXfwasmnMtgqemLd1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 22:06:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "br9wrfc1oy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/delete.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5BdwOm28F0tZBR2H3cdKT0VuaXfwasmnMtgqemLd1U="
+        }
+      ]
+    },
+    {
+      "Route": "css/delete.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\delete.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5BdwOm28F0tZBR2H3cdKT0VuaXfwasmnMtgqemLd1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 22:06:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5BdwOm28F0tZBR2H3cdKT0VuaXfwasmnMtgqemLd1U="
         }
       ]
     },

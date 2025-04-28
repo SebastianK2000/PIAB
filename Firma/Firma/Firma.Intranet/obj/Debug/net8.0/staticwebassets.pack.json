@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\create.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\delete.css",
+      "PackagePath": "staticwebassets\\css\\delete.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
