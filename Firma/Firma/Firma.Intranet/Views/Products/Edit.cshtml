@@ -1,64 +1,80 @@
 ﻿@model Firma.Data.Data.Sklep.Product
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Product";
 }
 
-<h1>Edit</h1>
+@section Styles {
+    <link rel="stylesheet" href="~/css/create.css" />
+}
 
-<h4>Product</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="container">
+    <div class="title">Edit Product</div>
+    <div class="content">
+        <form asp-action="Edit" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
             <input type="hidden" asp-for="IdProduct" />
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Name</span>
+                    <input asp-for="Name" class="form-control" placeholder="Enter product name" />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Price</span>
+                    <input asp-for="Price" class="form-control" placeholder="Enter product price" />
+                    <span asp-validation-for="Price" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Product Kind</span>
+                    <input asp-for="IdKind" class="form-control" placeholder="Enter product kind" />
+                    <span asp-validation-for="IdKind" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Color</span>
+                    <input asp-for="Color" class="form-control" placeholder="Enter product color" />
+                    <span asp-validation-for="Color" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Description</span>
+                    <input asp-for="Description" class="form-control" placeholder="Enter product description" />
+                    <span asp-validation-for="Description" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Image URL</span>
+                    <input asp-for="ImageUrl" class="form-control" placeholder="Enter image URL" />
+                    <span asp-validation-for="ImageUrl" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Product Kind</span>
+                    <select asp-for="IdKinds" class="form-control" asp-items="ViewBag.IdKinds">
+                        <option value="">Select Product Kind</option>
+                    </select>
+                    <span asp-validation-for="IdKinds" class="text-danger small"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IdKind" class="control-label"></label>
-                <input asp-for="IdKind" class="form-control" />
-                <span asp-validation-for="IdKind" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Color" class="control-label"></label>
-                <input asp-for="Color" class="form-control" />
-                <span asp-validation-for="Color" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label"></label>
-                <input asp-for="ImageUrl" class="form-control" />
-                <span asp-validation-for="ImageUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IdKinds" class="control-label"></label>
-                <select asp-for="IdKinds" class="form-control" asp-items="ViewBag.IdKinds"></select>
-                <span asp-validation-for="IdKinds" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+
+            <div class="button">
+                <input type="submit" value="Save Changes" />
             </div>
         </form>
+
+        <div class="mt-3">
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

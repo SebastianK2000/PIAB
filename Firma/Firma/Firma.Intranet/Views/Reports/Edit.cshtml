@@ -1,54 +1,66 @@
 ﻿@model Firma.Data.Data.Sklep.Reports
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Reports";
 }
 
-<h1>Edit</h1>
+@section Styles {
+    <link rel="stylesheet" href="~/css/create.css" />
+}
 
-<h4>Reports</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="container">
+    <div class="title">Edit Reports</div>
+    <div class="content">
+        <form asp-action="Edit" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
             <input type="hidden" asp-for="IdReports" />
-            <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
+
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Title</span>
+                    <input asp-for="Title" class="form-control" placeholder="Enter report title" />
+                    <span asp-validation-for="Title" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Description</span>
+                    <input asp-for="Description" class="form-control" placeholder="Enter report description" />
+                    <span asp-validation-for="Description" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Date</span>
+                    <input asp-for="Date" type="date" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">User</span>
+                    <input asp-for="User" class="form-control" placeholder="Enter user details" />
+                    <span asp-validation-for="User" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Product</span>
+                    <input asp-for="Product" class="form-control" placeholder="Enter product details" />
+                    <span asp-validation-for="Product" class="text-danger small"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
-                <input asp-for="Date" class="form-control" />
-                <span asp-validation-for="Date" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="User" class="control-label"></label>
-                <input asp-for="User" class="form-control" />
-                <span asp-validation-for="User" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Product" class="control-label"></label>
-                <input asp-for="Product" class="form-control" />
-                <span asp-validation-for="Product" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+
+            <div class="button">
+                <input type="submit" value="Save Changes" />
             </div>
         </form>
+
+        <div class="mt-3">
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
