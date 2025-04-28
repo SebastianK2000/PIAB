@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma.Intranet", "Firma.Intranet\Firma.Intranet.csproj", "{FC2D8779-C67D-4921-8596-98BA69F63D36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma.PortalWWW", "Firma.PortalWWW\Firma.PortalWWW.csproj", "{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firma.Data", "Firma.Data\Firma.Data.csproj", "{7B1C3281-4851-4812-871D-1B22607158E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB02B2A4-FD3F-4464-87FD-332B404F9CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1C3281-4851-4812-871D-1B22607158E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1C3281-4851-4812-871D-1B22607158E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1C3281-4851-4812-871D-1B22607158E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1C3281-4851-4812-871D-1B22607158E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

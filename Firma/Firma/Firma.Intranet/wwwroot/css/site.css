@@ -523,3 +523,26 @@ footer {
     color: #34c759;
     cursor: pointer;
 }
+
+@media (max-width: 991px) {
+    /* Przycisk hamburgera */
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    /* Menu jest pocz¹tkowo ukryte */
+    .navbar-collapse {
+        display: none;
+    }
+
+        /* Menu pokazuje siê po klikniêciu */
+        .navbar-collapse.collapse.show {
+            display: block;
+        }
+
+    /* Dostosowanie uk³adu elementów w menu na ma³ych ekranach */
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+}

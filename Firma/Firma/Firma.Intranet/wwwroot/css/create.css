@@ -1,0 +1,143 @@
+﻿body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background-color: #f4f4f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container-create {
+    max-width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007aff;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-control {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+    .form-control:focus {
+        border-color: #007aff;
+        box-shadow: 0 0 10px rgba(0, 122, 255, 0.2);
+    }
+
+.btn-primary {
+    background-color: #007aff;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+    .btn-primary:hover {
+        background-color: #005bb5;
+    }
+
+.text-muted {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.card-footer {
+    background-color: #f9f9f9;
+    border-radius: 0 0 20px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+    .card-footer a {
+        color: #007aff;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+
+@media (max-width: 576px) {
+    .container-create {
+        margin-top: 2rem;
+        padding: 0 15px;
+    }
+
+    .card {
+        border-radius: 15px;
+    }
+
+    .card-header {
+        font-size: 1.25rem;
+        padding: 15px;
+    }
+
+    .form-control {
+        padding: 12px;
+    }
+
+    .btn-primary {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .card-footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container-create {
+        margin-top: 4rem;
+        padding: 0 15px;
+    }
+
+    .card {
+        border-radius: 15px;
+    }
+
+    .card-header {
+        font-size: 1.25rem;
+        padding: 15px;
+    }
+
+    .form-control {
+        padding: 12px;
+    }
+
+    .btn-primary {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .card-footer {
+        padding: 10px;
+    }
+}
