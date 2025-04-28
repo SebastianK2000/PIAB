@@ -1,3 +1,4 @@
+using Firma.Data.Data;
 using Firma.PortalWWW.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -7,14 +8,21 @@ namespace Firma.PortalWWW.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly FirmaContext _context;
+        public HomeController(ILogger<HomeController> logger, FirmaContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            ViewBag.ModelStrony =
+                (
+                    from strona in _context.Strona // dla ka¿dej strony z db
+                    orderby strona.Pozycja // posortowanej wzglêdem pozycji
+                    select strona // pobieramy strone
+                ).ToList();
             return View();
         }
 

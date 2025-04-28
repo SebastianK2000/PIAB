@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Firma.Data.Data.CMS.Strona>
+
+<div class="container d-flex justify-content-between align-items-center">
+
+    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="iPhone">
+        <img class="logo-item" src="~/assets/logo.svg" width="200" height="48" alt="Logo">
+    </a>
+
+    <ul class="navbar-nav flex-row gap-4 text-uppercase small mx-auto">
+        @foreach(var item in Model)
+        {
+            <li class="nav-item">
+                <a class="nav-item-main" asp-area="" asp-controller="Mac" asp-action="Index">@item.LinkTytul</a>
+            </li>
+        }
+    </ul>
+
+    <div class="d-flex gap-3">
+        <a class="nav-link-icon-main" asp-area="" asp-controller="Home" asp-action=""><i class="bi bi-search"></i></a>
+        <a class="nav-link-icon-main" asp-area="" asp-controller="Home" asp-action=""><i class="bi bi-bag"></i></a>
+    </div>
+</div>
