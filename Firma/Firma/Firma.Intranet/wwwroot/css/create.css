@@ -43,10 +43,10 @@
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-    .form-control:focus {
-        border-color: #007aff;
-        box-shadow: 0 0 10px rgba(0, 122, 255, 0.2);
-    }
+.form-control:focus {
+    border-color: #007aff;
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.2);
+}
 
 .btn-primary {
     background-color: #007aff;
@@ -58,9 +58,9 @@
     transition: background-color 0.3s;
 }
 
-    .btn-primary:hover {
-        background-color: #005bb5;
-    }
+.btn-primary:hover {
+    background-color: #005bb5;
+}
 
 .text-muted {
     font-size: 0.9rem;
@@ -74,15 +74,15 @@
     text-align: center;
 }
 
-    .card-footer a {
-        color: #007aff;
-        text-decoration: none;
-        font-size: 1rem;
-    }
+.card-footer a {
+    color: #007aff;
+    text-decoration: none;
+    font-size: 1rem;
+}
 
-        .card-footer a:hover {
-            text-decoration: underline;
-        }
+.card-footer a:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 576px) {
     .container-create {

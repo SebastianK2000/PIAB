@@ -1,0 +1,38 @@
+﻿@media (max-width: 768px) {
+    .table-responsive-stack {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table-responsive-stack thead {
+        display: none;
+    }
+
+    .table-responsive-stack tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+
+    .table-responsive-stack td {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .table-responsive-stack td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        flex-basis: 45%;
+        text-align: left;
+    }
+
+    .table-responsive-stack td:last-child {
+        border-bottom: none;
+    }
+}
