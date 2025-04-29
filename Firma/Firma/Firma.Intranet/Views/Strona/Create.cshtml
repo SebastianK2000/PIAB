@@ -1,46 +1,54 @@
 ﻿@model Firma.Data.Data.CMS.Strona
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Page";
 }
 
-<h1>Create</h1>
+@section Styles {
+    <link rel="stylesheet" href="~/css/create.css" />
+}
 
-<h4>Strona</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="LinkTytul" class="control-label"></label>
-                <input asp-for="LinkTytul" class="form-control" />
-                <span asp-validation-for="LinkTytul" class="text-danger"></span>
+<div class="container">
+    <div class="title">Create Page</div>
+    <div class="content">
+        <form asp-action="Create" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Link Title</span>
+                    <input asp-for="LinkTytul" class="form-control" placeholder="Enter link title" />
+                    <span asp-validation-for="LinkTytul" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Title</span>
+                    <input asp-for="Tytul" class="form-control" placeholder="Enter page title" />
+                    <span asp-validation-for="Tytul" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Content</span>
+                    <input asp-for="Content" class="form-control" placeholder="Enter page content" />
+                    <span asp-validation-for="Content" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Position</span>
+                    <input asp-for="Pozycja" class="form-control" placeholder="Enter position" />
+                    <span asp-validation-for="Pozycja" class="text-danger small"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Tytul" class="control-label"></label>
-                <input asp-for="Tytul" class="form-control" />
-                <span asp-validation-for="Tytul" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Content" class="control-label"></label>
-                <input asp-for="Content" class="form-control" />
-                <span asp-validation-for="Content" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pozycja" class="control-label"></label>
-                <input asp-for="Pozycja" class="form-control" />
-                <span asp-validation-for="Pozycja" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="button">
+                <input type="submit" value="Create Page" />
             </div>
         </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+        <div class="back-button">
+            <a asp-action="Index" class="btn-back">← Back to List</a>
+        </div>
+    </div>
 </div>
 
 @section Scripts {

@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\create.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5270"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:41:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5270"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 13:26:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Firma.Intranet/css/create.hsnng277ry.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\create.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hsnng277ry"},{"Name":"integrity","Value":"sha256-MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q="},{"Name":"label","Value":"_content/Firma.Intranet/css/create.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5270"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:41:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5270"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022MWDQCn80YllTfMC/wGTXKa83BNSj4dNxV7xgeJH2t3Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 13:26:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Firma.Intranet/css/delete.br9wrfc1oy.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\delete.css'))</AssetFile>

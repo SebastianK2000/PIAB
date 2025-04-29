@@ -1,53 +1,65 @@
 ﻿@model Firma.Data.Data.Sklep.Reports
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Report";
 }
 
-<h1>Create</h1>
+@section Styles {
+    <link rel="stylesheet" href="~/css/create.css" />
+}
 
-<h4>Reports</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
+<div class="container">
+    <div class="title">Create Report</div>
+    <div class="content">
+        <form asp-action="Create" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Title</span>
+                    <input asp-for="Title" class="form-control" placeholder="Enter report title" />
+                    <span asp-validation-for="Title" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Description</span>
+                    <input asp-for="Description" class="form-control" placeholder="Enter description" />
+                    <span asp-validation-for="Description" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Date</span>
+                    <input asp-for="Date" class="form-control" placeholder="Enter date" />
+                    <span asp-validation-for="Date" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">User</span>
+                    <input asp-for="User" class="form-control" placeholder="Enter user" />
+                    <span asp-validation-for="User" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Product</span>
+                    <input asp-for="Product" class="form-control" placeholder="Enter product" />
+                    <span asp-validation-for="Product" class="text-danger small"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
-                <input asp-for="Date" class="form-control" />
-                <span asp-validation-for="Date" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="User" class="control-label"></label>
-                <input asp-for="User" class="form-control" />
-                <span asp-validation-for="User" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Product" class="control-label"></label>
-                <input asp-for="Product" class="form-control" />
-                <span asp-validation-for="Product" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="button">
+                <input type="submit" value="Create Report" />
             </div>
         </form>
+
+        <div class="back-button">
+            <a asp-action="Index" class="btn-back">← Back to List</a>
+        </div>
+
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

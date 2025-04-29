@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qi7EWuX4MB/ZRxVqYEQGsU5STmq2wmoHnkcFzsLogiY=",
+  "Hash": "imT7QTC6dI/Aptj29X9EJihWTPfyosP7l+BqCz7C95k=",
   "Source": "Firma.Intranet",
   "BasePath": "_content/Firma.Intranet",
   "Mode": "Default",
@@ -1488,7 +1488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 20:41:23 GMT"
+          "Value": "Tue, 29 Apr 2025 13:26:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1525,7 +1525,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 20:41:23 GMT"
+          "Value": "Tue, 29 Apr 2025 13:26:36 GMT"
         },
         {
           "Name": "Cache-Control",

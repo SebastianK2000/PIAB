@@ -1,67 +1,81 @@
 ﻿@model Firma.Data.Data.Sklep.Orders
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Order";
 }
 
-<h1>Create</h1>
+@section Styles {
+    <link rel="stylesheet" href="~/css/create.css" />
+}
 
-<h4>Orders</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Number" class="control-label"></label>
-                <input asp-for="Number" class="form-control" />
-                <span asp-validation-for="Number" class="text-danger"></span>
+<div class="container">
+    <div class="title">Create Order</div>
+    <div class="content">
+        <form asp-action="Create" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Order Number</span>
+                    <input asp-for="Number" class="form-control" placeholder="Enter order number" />
+                    <span asp-validation-for="Number" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Date</span>
+                    <input asp-for="Date" class="form-control" type="date" />
+                    <span asp-validation-for="Date" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">User</span>
+                    <input asp-for="User" class="form-control" placeholder="Enter user name" />
+                    <span asp-validation-for="User" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input asp-for="Email" class="form-control" placeholder="Enter email" />
+                    <span asp-validation-for="Email" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <input asp-for="Address" class="form-control" placeholder="Enter address" />
+                    <span asp-validation-for="Address" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Payment Method</span>
+                    <input asp-for="PaymentMethod" class="form-control" placeholder="Enter payment method" />
+                    <span asp-validation-for="PaymentMethod" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Delivery Method</span>
+                    <input asp-for="DeliveryMethod" class="form-control" placeholder="Enter delivery method" />
+                    <span asp-validation-for="DeliveryMethod" class="text-danger small"></span>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Products</span>
+                    <select asp-for="IdProducts" class="form-control" asp-items="ViewBag.IdProducts"></select>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
-                <input asp-for="Date" class="form-control" />
-                <span asp-validation-for="Date" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="User" class="control-label"></label>
-                <input asp-for="User" class="form-control" />
-                <span asp-validation-for="User" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Address" class="control-label"></label>
-                <input asp-for="Address" class="form-control" />
-                <span asp-validation-for="Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PaymentMethod" class="control-label"></label>
-                <input asp-for="PaymentMethod" class="form-control" />
-                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeliveryMethod" class="control-label"></label>
-                <input asp-for="DeliveryMethod" class="form-control" />
-                <span asp-validation-for="DeliveryMethod" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IdProducts" class="control-label"></label>
-                <select asp-for="IdProducts" class ="form-control" asp-items="ViewBag.IdProducts"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="button">
+                <input type="submit" value="Create Order">
             </div>
         </form>
+
+        <div class="back-button">
+            <a asp-action="Index" class="btn-back">← Back to List</a>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
