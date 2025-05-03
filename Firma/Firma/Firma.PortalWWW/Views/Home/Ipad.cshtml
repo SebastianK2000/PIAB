@@ -1,9 +1,13 @@
-﻿@{
+﻿@model Firma.Data.Data.Sklep.Product
+
+@{
     ViewData["Title"] = "iPad";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <link rel="stylesheet" href="~/css/tabs.css" />
+
+@await Html.PartialAsync("Ipad", (IEnumerable<Firma.Data.Data.Sklep.Product>)ViewBag.ModelProducts)
 
 <div class="ipad-store-container">
     <h1 class="store-title">All iPads. <span class="span-in-header">Which one do you need?</span></h1>

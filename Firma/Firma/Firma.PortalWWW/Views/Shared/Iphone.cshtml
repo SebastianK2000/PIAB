@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Firma.Data.Data.Sklep.Product>
+
+<div class="iphone-store-container">
+    <h1 class="store-title">All models. <span class="span-in-header">Which one for you?</span></h1>
+    <div class="iphone-grid">
+        @foreach (var item in Model)
+        {
+            <div class="iphone-card">
+                <h2 class="top-h2-padding">@item.Name</h2>
+                <img src="~/assets/iphone15.jpg" alt="iPhone 15">
+                <div class="color-selector">
+                    <span class="color-circle" style="background-color: #000;"></span>
+                    <span class="color-circle" style="background-color: #fff;"></span>
+                    <span class="color-circle" style="background-color: #ff3b30;"></span>
+                </div>
+                <div class="p-and-button">
+                    <p class="price">$ @item.Price</p>
+                    <a href="#" class="btn">Buy</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

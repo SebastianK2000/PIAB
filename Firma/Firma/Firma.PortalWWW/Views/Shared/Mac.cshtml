@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Firma.Data.Data.Sklep.Product>
+
+<div class="macbook-store-container">
+    <h1 class="store-title">All MacBook models. <span class="span-in-header">Which one is for you?</span></h1>
+
+    <div class="grid-container">
+        @foreach (var item in Model)
+        {
+            <div class="card">
+                <h2 class="top-h2-padding">@item.Name</h2>
+                <img src="~/assets/MacAir.jpg" alt="MacBook Air 13">
+                <div class="p-and-button">
+                    <p class="price">$ @item.Price</p>
+                    <a href="#" class="btn">Buy</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

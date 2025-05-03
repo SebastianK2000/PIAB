@@ -1,9 +1,13 @@
-﻿@{
+﻿@model Firma.Data.Data.Sklep.Product
+
+@{
     ViewData["Title"] = "iPhone";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <link rel="stylesheet" href="~/css/iphone.css" />
+
+@await Html.PartialAsync("Iphone", (IEnumerable<Firma.Data.Data.Sklep.Product>)ViewBag.ModelProducts)
 
 <div class="iphone-store-container">
     <h1 class="store-title">All models. <span class="span-in-header">Which one for you?</span></h1>

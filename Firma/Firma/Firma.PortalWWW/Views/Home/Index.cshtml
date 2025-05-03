@@ -1,7 +1,10 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Firma.Data.Data.CMS.Strona
+
+@{
+    ViewData["Title"] = Model.LinkTytul;
 }
 
-<div class="text-center">
-    <h2>Home</h2>
-</div>
+<h2>@Model.Tytul</h2>
+<p>
+    @Model.Content
+</p>

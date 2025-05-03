@@ -15,7 +15,7 @@ namespace Firma.PortalWWW.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id)
         {
             ViewBag.ModelStrony =
                 (
@@ -23,30 +23,72 @@ namespace Firma.PortalWWW.Controllers
                     orderby strona.Pozycja // posortowanej wzglêdem pozycji
                     select strona // pobieramy strone
                 ).ToList();
-            return View();
+
+            if(id == null)
+            {
+                id = 1;
+            }
+            var item = await _context.Strona.FindAsync(id);
+
+            return View(item);
         }
 
         public IActionResult Privacy()
         {
+            ViewBag.ModelSupport =
+            (
+                from support in _context.Support
+                select support
+            ).ToList();
+
             return View();
         }
 
-        public IActionResult iPhone()
+        public IActionResult Iphone()
         {
+            ViewBag.ModelProducts =
+            (
+                from product in _context.Product
+                where product.Kind != null && product.Kind.Name == "Iphone"
+                select product
+            ).ToList();
+
             return View();
         }
 
         public IActionResult Mac()
         {
+            ViewBag.ModelProducts =
+            (
+                from product in _context.Product
+                where product.Kind != null && product.Kind.Name == "Mac"
+                select product
+            ).ToList();
+
             return View();
         }
 
         public IActionResult Watch()
         {
+            ViewBag.ModelProducts =
+            (
+                from product in _context.Product
+                where product.Kind != null && product.Kind.Name == "Watch"
+                select product
+            ).ToList();
+
             return View();
         }
         public IActionResult Ipad()
         {
+
+            ViewBag.ModelProducts =
+            (
+                from product in _context.Product
+                where product.Kind != null && product.Kind.Name == "Ipad"
+                select product
+            ).ToList();
+
             return View();
         }
 
