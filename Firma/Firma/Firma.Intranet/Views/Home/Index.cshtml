@@ -1,8 +1,43 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Intranet - Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Welcome to the Tech Stack Intranet</h1>
+        <p class="lead text-muted">
+            Manage products, search data, create reports, manage users and orders
+        </p>
+        <a href="#" class="btn btn-primary btn-lg mt-3">Go to Your Profile</a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">📁 Orders</h5>
+                    <p class="card-text">Manage or search user orders.</p>
+                    <a href="/Orders" class="btn btn-outline-primary btn-sm">Open</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">📰 News</h5>
+                    <p class="card-text">Read the latest announcements and company news.</p>
+                    <a href="/News" class="btn btn-outline-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">💼 Raports</h5>
+                    <p class="card-text">Generate periodic reports on sales or user growth.</p>
+                    <a href="/Reports" class="btn btn-outline-primary btn-sm">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
