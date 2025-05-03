@@ -2,6 +2,7 @@ using Firma.Data.Data;
 using Firma.PortalWWW.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 
 namespace Firma.PortalWWW.Controllers
 {
@@ -9,6 +10,7 @@ namespace Firma.PortalWWW.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly FirmaContext _context;
+
         public HomeController(ILogger<HomeController> logger, FirmaContext context)
         {
             _logger = logger;
@@ -17,78 +19,80 @@ namespace Firma.PortalWWW.Controllers
 
         public async Task<IActionResult> Index(int? id)
         {
-            ViewBag.ModelStrony =
-                (
-                    from strona in _context.Strona // dla ka¿dej strony z db
-                    orderby strona.Pozycja // posortowanej wzglêdem pozycji
-                    select strona // pobieramy strone
-                ).ToList();
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
 
-            if(id == null)
+            if (id == null)
             {
                 id = 1;
             }
+
             var item = await _context.Strona.FindAsync(id);
+
+            if (item == null)
+            {
+                return NotFound();
+            }
 
             return View(item);
         }
 
+        public async Task<IActionResult> Mac()
+        {
+            var produktyMac = await _context.Product
+                .Where(p => p.Kind != null && p.Kind.Name == "Mac")
+                .ToListAsync();
+
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
+
+            return View(produktyMac);
+        }
+
+        public async Task<IActionResult> Ipad()
+        {
+            var produktyIpad = await _context.Product
+                .Where(p => p.Kind != null && p.Kind.Name == "Ipad")
+                .ToListAsync();
+
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
+
+            return View(produktyIpad);
+        }
+
+        public async Task<IActionResult> Watch()
+        {
+            var produktyWatch = await _context.Product
+                .Where(p => p.Kind != null && p.Kind.Name == "iWatch")
+                .ToListAsync();
+
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
+
+            return View(produktyWatch);
+        }
+
+        public async Task<IActionResult> Iphone()
+        {
+            var produktyIphone = await _context.Product
+                .Where(p => p.Kind != null && p.Kind.Name == "Iphone")
+                .ToListAsync();
+
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
+
+            return View(produktyIphone);
+        }
+
         public IActionResult Privacy()
         {
-            ViewBag.ModelSupport =
-            (
-                from support in _context.Support
-                select support
-            ).ToList();
-
-            return View();
-        }
-
-        public IActionResult Iphone()
-        {
-            ViewBag.ModelProducts =
-            (
-                from product in _context.Product
-                where product.Kind != null && product.Kind.Name == "Iphone"
-                select product
-            ).ToList();
-
-            return View();
-        }
-
-        public IActionResult Mac()
-        {
-            ViewBag.ModelProducts =
-            (
-                from product in _context.Product
-                where product.Kind != null && product.Kind.Name == "Mac"
-                select product
-            ).ToList();
-
-            return View();
-        }
-
-        public IActionResult Watch()
-        {
-            ViewBag.ModelProducts =
-            (
-                from product in _context.Product
-                where product.Kind != null && product.Kind.Name == "Watch"
-                select product
-            ).ToList();
-
-            return View();
-        }
-        public IActionResult Ipad()
-        {
-
-            ViewBag.ModelProducts =
-            (
-                from product in _context.Product
-                where product.Kind != null && product.Kind.Name == "Ipad"
-                select product
-            ).ToList();
-
+            ViewBag.ModelSupport = _context.Support.ToList();
             return View();
         }
 

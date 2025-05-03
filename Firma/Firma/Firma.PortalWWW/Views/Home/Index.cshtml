@@ -1,10 +1,6 @@
 ﻿@model Firma.Data.Data.CMS.Strona
 
-@{
-    ViewData["Title"] = Model.LinkTytul;
-}
-
-<h2>@Model.Tytul</h2>
-<p>
-    @Model.Content
-</p>
+<h1>@Model.Tytul</h1>
+<div>
+    @Html.Raw(Model.Content)
+</div>

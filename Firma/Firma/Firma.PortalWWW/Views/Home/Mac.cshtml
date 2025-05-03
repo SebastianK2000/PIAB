@@ -1,56 +1,26 @@
-﻿@model Firma.Data.Data.Sklep.Product
+﻿@model IEnumerable<Firma.Data.Data.Sklep.Product>
 
 @{
-    ViewData["Title"] = "MacBook";
+    ViewData["Title"] = "Mac";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <link rel="stylesheet" href="~/css/tabs.css" />
 
-@await Html.PartialAsync("Mac", (IEnumerable<Firma.Data.Data.Sklep.Product>)ViewBag.ModelProducts)
-
 <div class="macbook-store-container">
     <h1 class="store-title">All MacBook models. <span class="span-in-header">Which one is for you?</span></h1>
 
     <div class="grid-container">
-        <div class="card">
-            <h2 class="top-h2-padding">MacBook Air 13 inch"</h2>
-            <h2>Apple M4</h2>
-            <img src="~/assets/MacAir.jpg" alt="MacBook Air 13">
-            <div class="p-and-button">
-                <p class="price">$1099</p>
-                <a href="#" class="btn">Buy</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <h2 class="top-h2-padding">MacBook Pro</h2>
-            <h2>Apple M1 Pro</h2>
-            <img src="~/assets/macpro.jpg" alt="MacBook Pro">
-            <div class="p-and-button">
-                <p class="price">$1999</p>
-                <a href="#" class="btn">Buy</a>
-            </div>
-        </div>
-
+        @foreach (var item in Model)
+        {
             <div class="card">
-                <h2 class="top-h2-padding">iMac"</h2>
-                <h2>Apple M1 Pro</h2>
-                <img src="~/assets/imac.jpg" alt="iMac">
+                <h2 class="top-h2-padding">@item.Name</h2>
+                <img src="~/assets/MacAir.jpg" alt=@item.Name>
                 <div class="p-and-button">
-                    <p class="price">$1799</p>
+                    <p class="price">$ @item.Price</p>
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
-
-            <div class="card">
-                <h2 class="top-h2-padding">Mac mini</h2>
-                <h2>Apple M2</h2>
-                <img src="~/assets/macmini.jpg" alt="Mac mini">
-                <div class="p-and-button">
-                    <p class="price">$699</p>
-                    <a href="#" class="btn">Buy</a>
-                </div>
-            </div>
+        }
     </div>
 </div>
