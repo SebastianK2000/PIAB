@@ -7,14 +7,17 @@
     </a>
 
     <ul class="navbar-nav flex-row gap-4 text-uppercase small mx-auto">
-        @foreach(var item in Model)
+        @if (Model != null)
         {
-            <li class="nav-item">
-                <a class="nav-item-main"
+            foreach (var item in Model)
+            {
+                <li class="nav-item">
+                    <a class="nav-item-main"
                    asp-controller="Home"
                    asp-action="Index"
                    asp-route-id="@item.IdStrony">@item.LinkTytul</a>
-            </li>
+                </li>
+            }
         }
     </ul>
 

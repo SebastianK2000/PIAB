@@ -228,6 +228,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wx63a4ar1f"},{"Name":"integrity","Value":"sha256-HICui9E25\u002BqhwuiOdiRuhidRULK8\u002ByN9U/TVsBLpu/U="},{"Name":"label","Value":"_content/Firma.PortalWWW/css/site.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10315"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HICui9E25\u002BqhwuiOdiRuhidRULK8\u002ByN9U/TVsBLpu/U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 18:06:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Firma.PortalWWW/css/support.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\support.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6tUv7meVhr/jGMqZmjrrTgj2uqJGSaEa4\u002B6sv4nlYLQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1171"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226tUv7meVhr/jGMqZmjrrTgj2uqJGSaEa4\u002B6sv4nlYLQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 17:43:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Firma.PortalWWW/css/support.mknbyzhctl.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\support.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mknbyzhctl"},{"Name":"integrity","Value":"sha256-6tUv7meVhr/jGMqZmjrrTgj2uqJGSaEa4\u002B6sv4nlYLQ="},{"Name":"label","Value":"_content/Firma.PortalWWW/css/support.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1171"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226tUv7meVhr/jGMqZmjrrTgj2uqJGSaEa4\u002B6sv4nlYLQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 17:43:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Firma.PortalWWW/css/tabs.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\tabs.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

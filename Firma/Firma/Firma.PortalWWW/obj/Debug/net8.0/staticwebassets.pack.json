@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\support.css",
+      "PackagePath": "staticwebassets\\css\\support.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\tabs.css",
       "PackagePath": "staticwebassets\\css\\tabs.css"
     },

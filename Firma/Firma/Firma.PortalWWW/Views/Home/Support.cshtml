@@ -2,15 +2,16 @@
 
 @{
     ViewData["Title"] = "Support";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@section Styles {
-    <link rel="stylesheet" href="~/css/support.css" />
-}
+<link rel="stylesheet" href="~/css/support.css" />
 
 <div class="support-container">
-    <h1 class="store-title">Support Center</h1>
+    <div class="support-header">
+        <h1 class="store-title">Support</h1>
+        <a asp-action="Create" class="btn-create-support">+ Create Support</a>
+    </div>
+
     <div class="support-grid">
         @foreach (var item in Model)
         {
@@ -19,7 +20,7 @@
                 <p><strong>Email:</strong> @item.Email</p>
                 <p><strong>Phone:</strong> @item.Phone</p>
                 <p><strong>Address:</strong> @item.Address</p>
-                <p><strong>Issue:</strong> @item.Description</p>
+                <p><strong>Description:</strong> @item.Description</p>
             </div>
         }
     </div>

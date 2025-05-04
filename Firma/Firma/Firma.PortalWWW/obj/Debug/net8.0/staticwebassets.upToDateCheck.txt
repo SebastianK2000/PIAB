@@ -17,6 +17,7 @@ wwwroot\assets\watchse.jpg
 wwwroot\assets\watchultra2.jpg
 wwwroot\css\iphone.css
 wwwroot\css\site.css
+wwwroot\css\support.css
 wwwroot\css\tabs.css
 wwwroot\css\watch.css
 wwwroot\favicon.ico

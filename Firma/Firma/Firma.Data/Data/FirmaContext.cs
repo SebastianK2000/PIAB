@@ -24,5 +24,6 @@ namespace Firma.Data.Data
         public DbSet<Reports> Reports { get; set; } = default!;
         public DbSet<Support> Support { get; set; } = default!;
         public DbSet<Users> Users { get; set; } = default!;
+        public object Strony { get; set; }
     }
 }

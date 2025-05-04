@@ -3,6 +3,7 @@ using Firma.PortalWWW.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
+using Firma.Data.Data.Sklep;
 
 namespace Firma.PortalWWW.Controllers
 {
@@ -10,11 +11,13 @@ namespace Firma.PortalWWW.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly FirmaContext _context;
+        private readonly FirmaContext _dbContext;
 
         public HomeController(ILogger<HomeController> logger, FirmaContext context)
         {
             _logger = logger;
             _context = context;
+            _dbContext = context;
         }
 
         public async Task<IActionResult> Index(int? id)
@@ -94,6 +97,37 @@ namespace Firma.PortalWWW.Controllers
         {
             ViewBag.ModelSupport = _context.Support.ToList();
             return View();
+        }
+        public async Task<IActionResult> Support()
+        {
+            var supportList = await _context.Support.ToListAsync();
+            return View(supportList);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Support support)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(support);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Support));
+            }
+
+            return View(support);
+        }
+
+        public IActionResult Odnoœniki()
+        {
+            // Ensure _dbContext is properly configured and injected
+            var model = _dbContext.Strona.ToList(); // Fetch data from the database
+            return View(model); // Pass the model to the view
         }
 
         public IActionResult Accessories()
