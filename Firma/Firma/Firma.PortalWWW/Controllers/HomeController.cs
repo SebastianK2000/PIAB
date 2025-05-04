@@ -95,8 +95,12 @@ namespace Firma.PortalWWW.Controllers
 
         public IActionResult Privacy()
         {
+            var privacyModel = new Privacy
+            {
+                Title = "Privacy Policy",
+            };
             ViewBag.ModelSupport = _context.Support.ToList();
-            return View();
+            return View(privacyModel);
         }
         public async Task<IActionResult> Support()
         {
@@ -125,9 +129,8 @@ namespace Firma.PortalWWW.Controllers
 
         public IActionResult Odnoœniki()
         {
-            // Ensure _dbContext is properly configured and injected
-            var model = _dbContext.Strona.ToList(); // Fetch data from the database
-            return View(model); // Pass the model to the view
+            var model = _dbContext.Strona.ToList();
+            return View(model);
         }
 
         public IActionResult Accessories()

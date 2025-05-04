@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P4GyxorBISAS++BMUZJ9kvv7ib2h7H+dyqVzfWn4daQ=",
+  "Hash": "Z8ECtTuJi7arnROzn6gjqOkOruJVxCHJ87fYG0yPUjA=",
   "Source": "Firma.Intranet",
   "BasePath": "_content/Firma.Intranet",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\privacy.css",
+      "SourceId": "Firma.Intranet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\",
+      "BasePath": "_content/Firma.Intranet",
+      "RelativePath": "css/privacy#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7k3oepgqhf",
+      "Integrity": "B3rC4mSs77w97vHIothscnDK3c/yMMWx3FxCjtWIQB4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\privacy.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\site.css",
@@ -1729,6 +1750,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-aaBrsPK8WMnyUR32Rqge/ELQqAFxt2raDbYf8PBjaoE="
+        }
+      ]
+    },
+    {
+      "Route": "css/privacy.7k3oepgqhf.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\privacy.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B3rC4mSs77w97vHIothscnDK3c/yMMWx3FxCjtWIQB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:35:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7k3oepgqhf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/privacy.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B3rC4mSs77w97vHIothscnDK3c/yMMWx3FxCjtWIQB4="
+        }
+      ]
+    },
+    {
+      "Route": "css/privacy.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\wwwroot\\css\\privacy.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B3rC4mSs77w97vHIothscnDK3c/yMMWx3FxCjtWIQB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:35:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B3rC4mSs77w97vHIothscnDK3c/yMMWx3FxCjtWIQB4="
         }
       ]
     },

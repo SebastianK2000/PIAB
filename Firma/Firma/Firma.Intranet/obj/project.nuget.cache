@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AhaE2yEq0rI=",
+  "dgSpecHash": "CWVVHBJ0jW4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.Intranet\\Firma.Intranet.csproj",
   "expectedPackageFiles": [
@@ -109,7 +109,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\9.0.0\\microsoft.visualstudio.web.codegeneration.9.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\9.0.0\\microsoft.visualstudio.web.codegeneration.core.9.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\9.0.0\\microsoft.visualstudio.web.codegeneration.design.9.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\8.0.7\\microsoft.visualstudio.web.codegeneration.design.8.0.7.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\9.0.0\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\9.0.0\\microsoft.visualstudio.web.codegeneration.templating.9.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\9.0.0\\microsoft.visualstudio.web.codegeneration.utils.9.0.0.nupkg.sha512",

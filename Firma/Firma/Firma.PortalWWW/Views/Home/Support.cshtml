@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Support";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <link rel="stylesheet" href="~/css/support.css" />
@@ -9,7 +10,7 @@
 <div class="support-container">
     <div class="support-header">
         <h1 class="store-title">Support</h1>
-        <a asp-action="Create" class="btn-create-support">+ Create Support</a>
+        <a asp-controller="Home" asp-action="Create" class="btn-create-support">+ Create Support</a>
     </div>
 
     <div class="support-grid">

@@ -8,7 +8,7 @@
             @foreach (var item in Model)
             {
                 <h2 class="top-h2-padding">@item.Name</h2>
-                <img src="~/assets/watch10.jpg" alt="Apple Watch Series 10">
+                <img src="@item.ImageUrl" alt="@item.Name">
                 <div class="color-selector">
                     <span class="color-circle" style="background-color: #000;"></span>
                     <span class="color-circle" style="background-color: #fff;"></span>

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Firma.Data.Data.Sklep.Privacy>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Introduction)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InformationWeCollect)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HowWeUseInformation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataSecurity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cookies)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThirdPartyDisclosure)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YourConsent)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PageName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Introduction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InformationWeCollect)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HowWeUseInformation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataSecurity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cookies)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThirdPartyDisclosure)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YourConsent)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdPrivacy">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdPrivacy">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdPrivacy">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

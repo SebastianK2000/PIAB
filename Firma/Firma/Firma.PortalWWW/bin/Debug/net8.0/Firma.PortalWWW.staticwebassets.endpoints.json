@@ -1479,6 +1479,88 @@
       ]
     },
     {
+      "Route": "css/create.2sjulksled.css",
+      "AssetFile": "css/create.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"osR34Uf8P3MXiqRIh9fmFH6imwzL/Qs3P1Ee0ThOiMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:26:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2sjulksled"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-osR34Uf8P3MXiqRIh9fmFH6imwzL/Qs3P1Ee0ThOiMg="
+        },
+        {
+          "Name": "label",
+          "Value": "css/create.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/create.css",
+      "AssetFile": "css/create.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"osR34Uf8P3MXiqRIh9fmFH6imwzL/Qs3P1Ee0ThOiMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:26:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-osR34Uf8P3MXiqRIh9fmFH6imwzL/Qs3P1Ee0ThOiMg="
+        }
+      ]
+    },
+    {
       "Route": "css/iphone.css",
       "AssetFile": "css/iphone.css",
       "Selectors": [],
@@ -1557,6 +1639,88 @@
         {
           "Name": "label",
           "Value": "css/iphone.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/privacy.css",
+      "AssetFile": "css/privacy.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sVFKoZx4R07eMhtk3wBlOuLh9aWb2/HEvLge2erokjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 13:54:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sVFKoZx4R07eMhtk3wBlOuLh9aWb2/HEvLge2erokjI="
+        }
+      ]
+    },
+    {
+      "Route": "css/privacy.jz5ch1zq9h.css",
+      "AssetFile": "css/privacy.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sVFKoZx4R07eMhtk3wBlOuLh9aWb2/HEvLge2erokjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 13:54:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jz5ch1zq9h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sVFKoZx4R07eMhtk3wBlOuLh9aWb2/HEvLge2erokjI="
+        },
+        {
+          "Name": "label",
+          "Value": "css/privacy.css"
         }
       ]
     },

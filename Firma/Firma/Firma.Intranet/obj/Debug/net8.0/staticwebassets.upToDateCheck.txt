@@ -2,6 +2,7 @@ wwwroot\assets\logo.svg
 wwwroot\css\create.css
 wwwroot\css\delete.css
 wwwroot\css\index.css
+wwwroot\css\privacy.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
