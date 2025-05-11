@@ -8,11 +8,12 @@
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 .support-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
@@ -20,7 +21,7 @@
     background-color: #f9f9f9;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease;
 }
 
@@ -30,20 +31,15 @@
 
     .support-card h2 {
         margin-top: 0;
-        color: #333;
+        color: #222;
+        font-size: 1.3rem;
     }
 
     .support-card p {
         margin: 0.5rem 0;
         font-size: 0.95rem;
+        color: #333;
     }
-
-.support-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-}
 
 .btn-create-support {
     padding: 10px 20px;
@@ -53,8 +49,38 @@
     border-radius: 8px;
     font-weight: 600;
     transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 1.5rem;
 }
 
     .btn-create-support:hover {
         background-color: #005bb5;
     }
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .support-container {
+        padding: 1rem;
+    }
+
+    .store-title {
+        font-size: 2rem;
+    }
+
+    .support-card {
+        padding: 1rem;
+    }
+
+        .support-card h2 {
+            font-size: 1.1rem;
+        }
+
+        .support-card p {
+            font-size: 0.9rem;
+        }
+
+    .btn-create-support {
+        width: 100%;
+        text-align: center;
+    }
+}

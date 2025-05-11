@@ -1,4 +1,20 @@
-﻿.user-details {
+﻿.form-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.user-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -10,71 +26,83 @@
     flex-direction: column;
 }
 
-.input-box .details {
-    font-weight: 500;
-    margin-bottom: 5px;
-    color: #444;
-}
+    .input-box .details {
+        font-weight: 500;
+        margin-bottom: 6px;
+        color: #333;
+    }
 
-.input-box input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
-    transition: 0.2s;
-}
+    .input-box input,
+    .input-box textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: 0.2s;
+    }
 
-.input-box input:focus {
-    border-color: #3c8dbc;
-    outline: none;
+        .input-box input:focus,
+        .input-box textarea:focus {
+            border-color: #007aff;
+            outline: none;
+        }
+
+.full-width {
+    grid-column: span 2;
 }
 
 .button {
     text-align: center;
-}
-
-.button input[type="submit"] {
-    background: #3c8dbc;
-    color: #fff;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.button input[type="submit"]:hover {
-    background: #367fa9;
-}
-
-.back-button {
-    text-align: center;
     margin-top: 20px;
 }
 
-.back-button .btn-back {
-    color: #3c8dbc;
-    text-decoration: none;
-    font-size: 14px;
-    transition: 0.3s;
+    .button input[type="submit"] {
+        background: #007aff;
+        color: #fff;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+        .button input[type="submit"]:hover {
+            background: #005bb5;
+        }
+
+.back-button {
+    text-align: center;
+    margin-top: 25px;
 }
 
-.back-button .btn-back:hover {
-    text-decoration: underline;
-}
+    .back-button .btn-back {
+        color: #007aff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+        .back-button .btn-back:hover {
+            text-decoration: underline;
+        }
 
 .text-danger {
     font-size: 13px;
 }
 
+/* RESPONSYWNOŚĆ */
 @media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
     .user-details {
         grid-template-columns: 1fr;
     }
 
-    .container {
-        margin: 20px;
-        padding: 20px;
+    .full-width {
+        grid-column: span 1;
     }
 }
