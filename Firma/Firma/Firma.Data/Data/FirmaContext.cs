@@ -25,6 +25,7 @@ namespace Firma.Data.Data
         public DbSet<Support> Support { get; set; } = default!;
         public DbSet<Users> Users { get; set; } = default!;
         public DbSet<Privacy> Privacy { get; set; } = default!;
+        public DbSet<ContentText> ContentText { get; set; }
         public object Strony { get; set; }
     }
 }

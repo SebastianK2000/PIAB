@@ -1,4 +1,13 @@
-﻿<!DOCTYPE html>
+﻿@using Firma.Data.Data
+@inject Firma.Data.Data.FirmaContext DbContext
+
+@{
+    var contentDict = DbContext.ContentText.ToDictionary(c => c.Key, c => c.Value);
+    string GetText(string key, string fallback) => contentDict.ContainsKey(key) ? contentDict[key] : fallback;
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -21,43 +30,36 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2 fixed-top shadow-sm">
             <div class="container d-flex justify-content-between align-items-center">
-                <!-- Logo -->
+
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">
                     <img src="/assets/logo.svg" alt="Logo" class="logo-item" width="150" />
                 </a>
 
-                <!-- Hamburger -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Menu + Ikony -->
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav ms-auto text-uppercase gap-lg-4 gap-2 align-items-lg-center">
-                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Mac">Mac</a></li>
-                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Iphone">iPhone</a></li>
-                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Ipad">iPad</a></li>
-                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Watch">Watch</a></li>
-                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Support">Support</a></li>
+                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Mac">@contentDict["Nav_Mac"]</a></li>
+                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Iphone">@contentDict["Nav_Iphone"]</a></li>
+                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Ipad">Ipad</a></li>
+                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Watch">@contentDict["Nav_Watch"]</a></li>
+                        <li class="nav-item"><a class="nav-item-main nav-link" asp-controller="Home" asp-action="Support">@contentDict["Nav_Support"]</a></li>
 
-                        <!-- Ikona: Szukaj -->
                         <li class="nav-item">
                             <a class="nav-link-icon-main nav-link" href="#"><i class="bi bi-search"></i></a>
                         </li>
-
-                        <!-- Ikona: Koszyk -->
                         <li class="nav-item">
                             <a class="nav-link-icon-main nav-link position-relative" asp-controller="Home" asp-action="Orders">
                                 <i class="bi bi-bag"></i>
                             </a>
                         </li>
-
                     </ul>
                 </div>
 
             </div>
-
         </nav>
     </header>
 
@@ -75,27 +77,26 @@
 
             <div class="row justify-content-center mb-3">
                 <div class="col-auto d-flex flex-wrap gap-3 justify-content-center">
-                    <a asp-action="Mac" asp-controller="Home" class="text-for-footer">Mac</a>
-                    <a asp-action="Iphone" asp-controller="Home" class="text-for-footer">iPhone</a>
+                    <a asp-action="Mac" asp-controller="Home" class="text-for-footer">@contentDict["Nav_Mac"]</a>
+                    <a asp-action="Iphone" asp-controller="Home" class="text-for-footer">@contentDict["Nav_Iphone"]</a>
                     <a asp-action="Ipad" asp-controller="Home" class="text-for-footer">iPad</a>
-                    <a asp-action="Watch" asp-controller="Home" class="text-for-footer">Watch</a>
-                    <a asp-action="Support" asp-controller="Home" class="text-for-footer">Support</a>
+                    <a asp-action="Watch" asp-controller="Home" class="text-for-footer">@contentDict["Nav_Watch"]</a>
+                    <a asp-action="Support" asp-controller="Home" class="text-for-footer">@contentDict["Nav_Support"]</a>
                 </div>
             </div>
 
             <div class="mb-3">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" class="text-for-footer">Terms of Service</a></li>
-                    <li class="list-inline-item"><a asp-action="Privacy" asp-controller="Home" class="text-for-footer">Privacy Policy</a></li>
-                    <li class="list-inline-item"><a href="#" class="text-for-footer">Cookie Policy</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-for-footer">@contentDict["Footer_Terms"]</a></li>
+                    <li class="list-inline-item"><a asp-action="Privacy" asp-controller="Home" class="text-for-footer">@contentDict["Footer_Privacy"]</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-for-footer">@contentDict["Footer_Cookies"]</a></li>
                 </ul>
             </div>
 
-            <p class="mb-0">&copy; 2025 Tech Stack. All Rights Reserved.</p>
+            <p class="mb-0">@contentDict["Footer_Copy"]</p>
         </div>
     </footer>
 
-    <!-- Skrypty -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
