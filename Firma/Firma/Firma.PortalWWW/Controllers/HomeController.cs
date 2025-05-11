@@ -21,27 +21,6 @@ namespace Firma.PortalWWW.Controllers
             _dbContext = context;
         }
 
-        public async Task<IActionResult> Index(int? id)
-        {
-            ViewBag.ModelStrony = await _context.Strona
-                .OrderBy(s => s.Pozycja)
-                .ToListAsync();
-
-            if (id == null)
-            {
-                id = 1;
-            }
-
-            var item = await _context.Strona.FindAsync(id);
-
-            if (item == null)
-            {
-                return NotFound();
-            }
-
-            return View(item);
-        }
-
         public async Task<IActionResult> Mac()
         {
             var produktyMac = await _context.Product
@@ -107,6 +86,19 @@ namespace Firma.PortalWWW.Controllers
         {
             var supportList = await _context.Support.ToListAsync();
             return View(supportList);
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var news = await _context.News
+                .OrderBy(n => n.Position)
+                .ToListAsync();
+
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
+
+            return View(news);
         }
 
         public IActionResult Create()

@@ -1,6 +1,29 @@
-﻿@model Firma.Data.Data.CMS.Strona
+﻿@model IEnumerable<Firma.Data.Data.CMS.News>
 
-<h1>@Model.Tytul</h1>
-<div>
-    @Html.Raw(Model.Content)
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/homer.css" />
+}
+
+<div class="container py-5">
+    <h1 class="text-center mb-5">Latest News</h1>
+
+    <div class="row g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.Tytul</h5>
+                        <p class="card-text text-muted flex-grow-1">@item.Content</p>
+                        <a href="#" class="btn btn-outline-primary mt-auto">Read more</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

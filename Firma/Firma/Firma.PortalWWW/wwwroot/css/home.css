@@ -1,2 +1,21 @@
-﻿body {
+﻿.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+.btn-outline-primary {
+    border-radius: 6px;
 }
