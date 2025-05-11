@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5RMlIajWtbxJX4uLqM6xyaNJWykZVbsohT8aiWRxksw=",
+  "Hash": "wWQu8hoOnQwVDvRxuvnIwiKc5sPwUtXeW+nVNl4FlwA=",
   "Source": "Firma.PortalWWW",
   "BasePath": "_content/Firma.PortalWWW",
   "Mode": "Default",
@@ -430,11 +430,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2h9kc6maf2",
-      "Integrity": "Ck9dqEkxq52BlIresVwlS35GnrboJNzPyQnDFWpWO14=",
+      "Fingerprint": "p15w0xjs2k",
+      "Integrity": "c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\create.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\home.css",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "css/home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
@@ -456,6 +477,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\iphone.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\orders.css",
+      "SourceId": "Firma.PortalWWW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\",
+      "BasePath": "_content/Firma.PortalWWW",
+      "RelativePath": "css/orders#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4zr9hpx94u",
+      "Integrity": "IAW+e6Cda1a4CQ1srd2/A4/Hy+oyYrrSvpB/fwizqE0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\orders.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\privacy.css",
@@ -3198,51 +3240,6 @@
       ]
     },
     {
-      "Route": "css/create.2h9kc6maf2.css",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\create.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2049"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ck9dqEkxq52BlIresVwlS35GnrboJNzPyQnDFWpWO14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 17:46:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2h9kc6maf2"
-        },
-        {
-          "Name": "label",
-          "Value": "css/create.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ck9dqEkxq52BlIresVwlS35GnrboJNzPyQnDFWpWO14="
-        }
-      ]
-    },
-    {
       "Route": "css/create.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\create.css",
       "Selectors": [],
@@ -3253,7 +3250,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2049"
+          "Value": "2026"
         },
         {
           "Name": "Content-Type",
@@ -3261,11 +3258,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ck9dqEkxq52BlIresVwlS35GnrboJNzPyQnDFWpWO14=\""
+          "Value": "\"c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 17:46:14 GMT"
+          "Value": "Sun, 11 May 2025 17:46:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3275,7 +3272,134 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ck9dqEkxq52BlIresVwlS35GnrboJNzPyQnDFWpWO14="
+          "Value": "sha256-c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/create.p15w0xjs2k.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\create.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 17:46:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p15w0xjs2k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/create.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:08:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.dyjx89twm7.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:08:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
         }
       ]
     },
@@ -3358,6 +3482,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I="
+        }
+      ]
+    },
+    {
+      "Route": "css/orders.4zr9hpx94u.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\orders.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IAW+e6Cda1a4CQ1srd2/A4/Hy+oyYrrSvpB/fwizqE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4zr9hpx94u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/orders.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IAW+e6Cda1a4CQ1srd2/A4/Hy+oyYrrSvpB/fwizqE0="
+        }
+      ]
+    },
+    {
+      "Route": "css/orders.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\orders.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IAW+e6Cda1a4CQ1srd2/A4/Hy+oyYrrSvpB/fwizqE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IAW+e6Cda1a4CQ1srd2/A4/Hy+oyYrrSvpB/fwizqE0="
         }
       ]
     },

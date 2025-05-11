@@ -16,7 +16,9 @@ wwwroot\assets\watch10.jpg
 wwwroot\assets\watchse.jpg
 wwwroot\assets\watchultra2.jpg
 wwwroot\css\create.css
+wwwroot\css\home.css
 wwwroot\css\iphone.css
+wwwroot\css\orders.css
 wwwroot\css\privacy.css
 wwwroot\css\site.css
 wwwroot\css\support.css

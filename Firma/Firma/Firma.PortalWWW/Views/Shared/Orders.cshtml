@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Firma.Data.Data.Sklep.Orders>
+
+@{
+    ViewData["Title"] = "Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/orders.css" />
+}
+
+<div class="orders-container">
+    <div class="orders-header d-flex justify-content-between align-items-center flex-wrap">
+        <h1 class="orders-title mb-3 mb-md-0">Orders</h1>
+        <a asp-action="SelectProduct" class="btn-create-order">Add Product</a>
+    </div>
+
+    <div class="orders-grid">
+        @foreach (var item in Model)
+        {
+            <div class="orders-card">
+                <h2>Order #: @item.Number</h2>
+                <p><strong>Date:</strong> @item.Date.ToShortDateString()</p>
+                <p><strong>User:</strong> @item.User</p>
+                <p><strong>Email:</strong> @item.Email</p>
+                <p><strong>Address:</strong> @item.Address</p>
+                <p><strong>Payment:</strong> @item.PaymentMethod</p>
+                <p><strong>Delivery:</strong> @item.DeliveryMethod</p>
+                <p><strong>Product:</strong> @item.Product?.Name</p>
+            </div>
+        }
+    </div>
+</div>

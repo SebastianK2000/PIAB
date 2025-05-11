@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Firma.Data.Data.Sklep.Product>
+
+@{
+    ViewData["Title"] = "Select Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/orders.css" />
+}
+
+<div class="orders-container">
+    <h1 class="orders-title">Select Product to Order</h1>
+
+    <div class="orders-grid">
+        @foreach (var product in Model)
+        {
+            <div class="orders-card">
+                <h2>@product.Name</h2>
+                <p><strong>Price:</strong> $@product.Price.ToString("0.00")</p>
+                <p><strong>Kind:</strong> @product.Kind?.Name</p>
+                <a asp-action="CreateOrders" asp-controller="Home" asp-route-id="@product.IdProduct" class="btn btn-sm btn-primary">
+                    Select
+                </a>
+            </div>
+        }
+    </div>
+</div>

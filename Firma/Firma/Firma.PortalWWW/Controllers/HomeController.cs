@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using Firma.Data.Data.Sklep;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Firma.PortalWWW.Controllers
 {
@@ -137,6 +138,66 @@ namespace Firma.PortalWWW.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> Orders()
+        {
+            var orders = await _context.Orders
+                .Include(o => o.Product)
+                .OrderByDescending(o => o.Date)
+                .ToListAsync();
+
+            ViewBag.ModelStrony = await _context.Strona
+                .OrderBy(s => s.Pozycja)
+                .ToListAsync();
+
+            return View(orders);
+        }
+
+        public async Task<IActionResult> SelectProduct()
+        {
+            var products = await _context.Product.Include(p => p.Kind).ToListAsync();
+            return View(products);
+        }
+
+        public async Task<IActionResult> CreateOrders(int? id)
+        {
+            var products = await _context.Product.ToListAsync();
+            ViewBag.Products = new SelectList(products, "IdProduct", "Name");
+
+            var order = new Orders
+            {
+                Number = "TEMP123",
+                User = "",
+                Email = "",
+                Address = "",
+                PaymentMethod = "",
+                DeliveryMethod = "",
+                Date = DateTime.Now,
+                IdProducts = id ?? 0,
+                Product = id != null ? await _context.Product.FindAsync(id) : null
+            };
+
+            return View(order);
+        }
+
+        [HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> CreateOrders(Orders order)
+{
+    if (ModelState.IsValid)
+    {
+        var datePrefix = DateTime.Now.ToString("yyyyMMdd");
+        var countToday = await _context.Orders.CountAsync(o => o.Date.Date == DateTime.Today);
+        var uniqueNumber = $"ORD-{datePrefix}-{countToday + 1:D3}";
+        order.Number = uniqueNumber;
+
+        _context.Orders.Add(order); await _context.SaveChangesAsync();
+        return RedirectToAction("Orders");
+    }
+
+    order.Product = await _context.Product.FindAsync(order.IdProducts);
+    return View(order);
+}
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

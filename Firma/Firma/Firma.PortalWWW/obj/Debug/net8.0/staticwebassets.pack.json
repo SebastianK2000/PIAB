@@ -77,8 +77,16 @@
       "PackagePath": "staticwebassets\\css\\create.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
       "PackagePath": "staticwebassets\\css\\iphone.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\orders.css",
+      "PackagePath": "staticwebassets\\css\\orders.css"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\privacy.css",
