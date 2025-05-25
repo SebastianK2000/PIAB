@@ -144,6 +144,62 @@ namespace Firma.PortalWWW.Controllers
             return View(orders);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteOrder(int id)
+        {
+            var order = await _context.Orders.FindAsync(id);
+            if (order != null)
+            {
+                _context.Orders.Remove(order);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction("Orders");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ConfirmOrder(Orders order)
+        {
+            return View(order);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> FinalizeOrder(Orders order)
+        {
+            order.Date = DateTime.Now;
+
+            var product = await _context.Product.FindAsync(order.IdProducts);
+            if (product == null)
+                return NotFound();
+
+            order.Product = product;
+
+            var datePrefix = DateTime.Now.ToString("yyyyMMdd");
+            var countToday = await _context.Orders.CountAsync(o => o.Date.Date == DateTime.Today);
+            order.Number = $"ORD-{datePrefix}-{countToday + 1:D3}";
+
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Orders");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ConfirmOrderById(int id)
+        {
+            var order = await _context.Orders.FindAsync(id);
+            if (order != null)
+            {
+                order.Number = "Confirmed";
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction("Orders");
+        }
         public async Task<IActionResult> SelectProduct()
         {
             var products = await _context.Product.Include(p => p.Kind).ToListAsync();
