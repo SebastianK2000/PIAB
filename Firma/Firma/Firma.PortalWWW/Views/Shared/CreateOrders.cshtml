@@ -13,7 +13,7 @@
     <h1 class="form-title">Create Order</h1>
 
     <form asp-action="CreateOrders" method="post">
-        <input type="hidden" asp-for="IdProducts" />
+        <input type="hidden" asp-for="IdProducts" value="@Model.Product?.IdProduct" />
 
         <div class="mb-3">
             <label class="form-label">Product</label>

@@ -23,7 +23,7 @@
                 <div class="p-and-button">
                     <p class="price">$ @item.Price</p>
                     <a href="javascript:void(0);" class="btn"
-                       onclick="openModal('@item.Name', '@item.ImageUrl', '@item.Price')">
+                       onclick="openModal('@item.IdProduct', '@item.Name', '@item.ImageUrl', '@item.Price')">
                         Buy
                     </a>
                 </div>
@@ -39,18 +39,13 @@
         <h2 id="modal-name"></h2>
         <img id="modal-image" src="" alt="" />
         <p id="modal-price"></p>
-        <form id="modal-form" method="post" action="/Home/CreateOrders">
-            @Html.AntiForgeryToken()
-            <input type="hidden" name="ProductName" id="modal-product-name" />
-            <input type="hidden" name="ProductImage" id="modal-product-image" />
-            <input type="hidden" name="ProductPrice" id="modal-product-price" />
-            <button type="submit" class="btn">Buy</button>
-        </form>
+        <button type="button" class="btn" id="modal-buy-button">Buy</button>
     </div>
 </div>
 <div id="blur-overlay" class="blur-overlay hidden"></div>
+
 <script>
-    function openModal(name, imageUrl, price) {
+    function openModal(id, name, imageUrl, price) {
         const modal = document.getElementById('product-modal');
         const overlay = document.getElementById('blur-overlay');
 
@@ -59,9 +54,8 @@
         document.getElementById('modal-image').alt = name;
         document.getElementById('modal-price').innerText = `$ ${price}`;
 
-        document.getElementById('modal-product-name').value = name;
-        document.getElementById('modal-product-image').value = imageUrl;
-        document.getElementById('modal-product-price').value = price;
+        const buyBtn = document.getElementById('modal-buy-button');
+        buyBtn.setAttribute("data-id", id);
 
         modal.classList.remove('hidden');
         overlay.classList.remove('hidden');
@@ -71,6 +65,14 @@
         modal.style.visibility = 'visible';
         modal.style.opacity = '1';
     }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const buyBtn = document.getElementById('modal-buy-button');
+        buyBtn.addEventListener('click', function () {
+            const productId = this.getAttribute("data-id");
+            window.location.href = `/Home/CreateOrders/${productId}`;
+        });
+    });
 
     function closeModal() {
         const modal = document.getElementById('product-modal');

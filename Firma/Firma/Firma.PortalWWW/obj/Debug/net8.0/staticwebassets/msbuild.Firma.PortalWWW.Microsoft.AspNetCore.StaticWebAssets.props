@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4zr9hpx94u</Fingerprint>
-      <Integrity>IAW+e6Cda1a4CQ1srd2/A4/Hy+oyYrrSvpB/fwizqE0=</Integrity>
+      <Fingerprint>ac90fkc0wn</Fingerprint>
+      <Integrity>ttHJ4K64JLnqBKeZHJkl96hc3txbKXjALYYfOmVQgsM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\orders.css'))</OriginalItemSpec>

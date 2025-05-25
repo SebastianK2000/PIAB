@@ -154,7 +154,6 @@ namespace Firma.PortalWWW.Controllers
         public async Task<IActionResult> CreateOrders(int? id)
         {
             var product = await _context.Product.FindAsync(id);
-
             if (product == null)
                 return NotFound();
 
@@ -163,7 +162,6 @@ namespace Firma.PortalWWW.Controllers
                 Product = product,
                 IdProducts = product.IdProduct,
                 Date = DateTime.Now,
-
                 User = string.Empty,
                 Email = string.Empty,
                 Address = string.Empty,
@@ -176,40 +174,25 @@ namespace Firma.PortalWWW.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateOrders(Orders? order, string? ProductName, string? ProductImage, decimal? ProductPrice)
+        public async Task<IActionResult> CreateOrders(Orders order)
         {
-            if (order == null && !string.IsNullOrEmpty(ProductName))
-            {
-                var product = await _context.Product.FirstOrDefaultAsync(p => p.Name == ProductName);
-
-                if (product == null)
-                    return NotFound();
-
-                var modalOrder = new Orders
-                {
-                    Number = Guid.NewGuid().ToString().Substring(0, 8).ToUpper(),
-                    Date = DateTime.Now,
-                    User = "Current User",
-                    Email = "user@example.com",
-                    Address = "Default Address",
-                    PaymentMethod = "Online",
-                    DeliveryMethod = "Courier",
-                    Product = product,
-                    IdProducts = product.IdProduct
-                };
-
-                _context.Orders.Add(modalOrder);
-                await _context.SaveChangesAsync();
-
-                return RedirectToAction("Orders");
-            }
-
-            if (order != null && ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 var datePrefix = DateTime.Now.ToString("yyyyMMdd");
                 var countToday = await _context.Orders.CountAsync(o => o.Date.Date == DateTime.Today);
                 var uniqueNumber = $"ORD-{datePrefix}-{countToday + 1:D3}";
+
                 order.Number = uniqueNumber;
+                order.Date = DateTime.Now;
+
+                var product = await _context.Product.FindAsync(order.IdProducts);
+                if (product == null)
+                {
+                    ModelState.AddModelError("IdProducts", "Selected product does not exist.");
+                    return View(order);
+                }
+
+                order.Product = product;
 
                 _context.Orders.Add(order);
                 await _context.SaveChangesAsync();
@@ -217,12 +200,11 @@ namespace Firma.PortalWWW.Controllers
             }
 
             if (order != null)
-            {
                 order.Product = await _context.Product.FindAsync(order.IdProducts);
-            }
 
             return View(order);
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
