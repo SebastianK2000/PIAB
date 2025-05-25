@@ -205,6 +205,35 @@ namespace Firma.PortalWWW.Controllers
             return View(order);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Search(string? query, string? kind)
+        {
+            var products = _context.Product
+                .Include(p => p.Kind)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(query))
+            {
+                products = products.Where(p => p.Name.Contains(query));
+            }
+
+            if (!string.IsNullOrEmpty(kind))
+            {
+                products = products.Where(p => p.Kind != null && p.Kind.Name == kind);
+            }
+
+            var result = await products.ToListAsync();
+
+            ViewBag.Kinds = await _context.Kind
+                .Select(k => k.Name)
+                .Distinct()
+                .ToListAsync();
+
+            ViewBag.Query = query;
+            ViewBag.SelectedKind = kind;
+
+            return View(result);
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
