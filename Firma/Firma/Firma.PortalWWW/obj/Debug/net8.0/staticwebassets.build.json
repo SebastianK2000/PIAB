@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p9q/gmkVRNkxXZZ+oKqm3KAr7BE1OvdydR9mzYGAJq8=",
+  "Hash": "BHgsxxfllJuh8eVHnEeBwKKfEP37MYCHpX/7ezFEukE=",
   "Source": "Firma.PortalWWW",
   "BasePath": "_content/Firma.PortalWWW",
   "Mode": "Default",
@@ -577,8 +577,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fc9iyeojad",
-      "Integrity": "MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc=",
+      "Fingerprint": "u6oh06xuqb",
+      "Integrity": "SgPhrJe0o8q4am/LTzoLK6TCFv6vTYkQb3QCZrToQmM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\tabs.css"
@@ -598,8 +598,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2oxylyim95",
-      "Integrity": "8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=",
+      "Fingerprint": "hj7zvvehqa",
+      "Integrity": "7Yv0rgCLPNRyJMg8evd0J0VxSV9RceHY4E6JSrKgOpU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\watch.css"
@@ -3824,7 +3824,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1555"
+          "Value": "3371"
         },
         {
           "Name": "Content-Type",
@@ -3832,11 +3832,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc=\""
+          "Value": "\"SgPhrJe0o8q4am/LTzoLK6TCFv6vTYkQb3QCZrToQmM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 17:11:45 GMT"
+          "Value": "Sun, 25 May 2025 12:21:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3846,12 +3846,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc="
+          "Value": "sha256-SgPhrJe0o8q4am/LTzoLK6TCFv6vTYkQb3QCZrToQmM="
         }
       ]
     },
     {
-      "Route": "css/tabs.fc9iyeojad.css",
+      "Route": "css/tabs.u6oh06xuqb.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\tabs.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3861,7 +3861,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1555"
+          "Value": "3371"
         },
         {
           "Name": "Content-Type",
@@ -3869,11 +3869,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc=\""
+          "Value": "\"SgPhrJe0o8q4am/LTzoLK6TCFv6vTYkQb3QCZrToQmM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 17:11:45 GMT"
+          "Value": "Sun, 25 May 2025 12:21:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3883,7 +3883,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fc9iyeojad"
+          "Value": "u6oh06xuqb"
         },
         {
           "Name": "label",
@@ -3891,52 +3891,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc="
-        }
-      ]
-    },
-    {
-      "Route": "css/watch.2oxylyim95.css",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\watch.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1574"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 13:29:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2oxylyim95"
-        },
-        {
-          "Name": "label",
-          "Value": "css/watch.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII="
+          "Value": "sha256-SgPhrJe0o8q4am/LTzoLK6TCFv6vTYkQb3QCZrToQmM="
         }
       ]
     },
@@ -3951,7 +3906,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1574"
+          "Value": "2676"
         },
         {
           "Name": "Content-Type",
@@ -3959,11 +3914,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=\""
+          "Value": "\"7Yv0rgCLPNRyJMg8evd0J0VxSV9RceHY4E6JSrKgOpU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 13:29:12 GMT"
+          "Value": "Sun, 25 May 2025 12:21:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3973,7 +3928,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII="
+          "Value": "sha256-7Yv0rgCLPNRyJMg8evd0J0VxSV9RceHY4E6JSrKgOpU="
+        }
+      ]
+    },
+    {
+      "Route": "css/watch.hj7zvvehqa.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\watch.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Yv0rgCLPNRyJMg8evd0J0VxSV9RceHY4E6JSrKgOpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 12:21:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hj7zvvehqa"
+        },
+        {
+          "Name": "label",
+          "Value": "css/watch.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Yv0rgCLPNRyJMg8evd0J0VxSV9RceHY4E6JSrKgOpU="
         }
       ]
     },

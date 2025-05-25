@@ -444,8 +444,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fc9iyeojad</Fingerprint>
-      <Integrity>MWYQDOb2a/PflpiekPZJqxedAZWmYJ3rtnErQogtdlc=</Integrity>
+      <Fingerprint>u6oh06xuqb</Fingerprint>
+      <Integrity>SgPhrJe0o8q4am/LTzoLK6TCFv6vTYkQb3QCZrToQmM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\tabs.css'))</OriginalItemSpec>
@@ -462,8 +462,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2oxylyim95</Fingerprint>
-      <Integrity>8nvy1TV1jCtudOO7D5QIJKSHF2+fQwRRuS6CjnvLtII=</Integrity>
+      <Fingerprint>hj7zvvehqa</Fingerprint>
+      <Integrity>7Yv0rgCLPNRyJMg8evd0J0VxSV9RceHY4E6JSrKgOpU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\watch.css'))</OriginalItemSpec>

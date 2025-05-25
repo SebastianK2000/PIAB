@@ -9,6 +9,7 @@
 
 <div class="ipad-store-container">
     <h1 class="store-title">All iPads. <span class="span-in-header">Which one do you need?</span></h1>
+
     <div class="grid-container">
         @foreach (var item in Model)
         {
@@ -17,9 +18,66 @@
                 <img src="@item.ImageUrl" alt="@item.Name">
                 <div class="p-and-button">
                     <p class="price">$ @item.Price.ToString("F2")</p>
-                    <a href="#" class="btn">Buy</a>
+                    <a href="javascript:void(0);" class="btn"
+                       onclick="openModal('@item.IdProduct', '@item.Name', '@item.ImageUrl', '@item.Price')">
+                        Buy
+                    </a>
                 </div>
             </div>
         }
     </div>
 </div>
+
+<!-- Modal -->
+<div id="product-modal" class="modal hidden">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modal-name"></h2>
+        <img id="modal-image" src="" alt="" />
+        <p id="modal-price"></p>
+        <button type="button" class="btn" id="modal-buy-button">Buy</button>
+    </div>
+</div>
+<div id="blur-overlay" class="blur-overlay hidden"></div>
+
+<script>
+    function openModal(id, name, imageUrl, price) {
+        const modal = document.getElementById('product-modal');
+        const overlay = document.getElementById('blur-overlay');
+
+        document.getElementById('modal-name').innerText = name;
+        document.getElementById('modal-image').src = imageUrl;
+        document.getElementById('modal-image').alt = name;
+        document.getElementById('modal-price').innerText = `$ ${parseFloat(price).toFixed(2)}`;
+
+        const buyBtn = document.getElementById('modal-buy-button');
+        buyBtn.setAttribute("data-id", id);
+
+        modal.classList.remove('hidden');
+        overlay.classList.remove('hidden');
+
+        modal.style.display = 'block';
+        overlay.style.display = 'block';
+        modal.style.visibility = 'visible';
+        modal.style.opacity = '1';
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const buyBtn = document.getElementById('modal-buy-button');
+        buyBtn.addEventListener('click', function () {
+            const productId = this.getAttribute("data-id");
+            window.location.href = `/Home/CreateOrders/${productId}`;
+        });
+    });
+
+    function closeModal() {
+        const modal = document.getElementById('product-modal');
+        const overlay = document.getElementById('blur-overlay');
+
+        modal.classList.add('hidden');
+        overlay.classList.add('hidden');
+
+        modal.style.display = 'none';
+        overlay.style.display = 'none';
+    }
+</script>
