@@ -13,9 +13,9 @@ namespace Firma.Data.Data.Sklep
         [Key]
         public int IdOrders { get; set; }
 
-        [Required(ErrorMessage = "Write Number")]
-        [MaxLength(20, ErrorMessage = "Number can be a have max 20 letters")]
-        public required string Number { get; set; }
+        [MaxLength(20)]
+        public string Number { get; set; } = string.Empty;
+
 
         [Required(ErrorMessage = "Write Date")]
         [DataType(DataType.Date)]

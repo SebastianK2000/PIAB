@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LgbAx50JYLPsoI8VtU14A9uNA7dp95yGDeXY58o9Hzs=",
+  "Hash": "EL9gscKOspjNsiPOtq1/cLI5Vn0Gf5BmWn8eKYtZaVI=",
   "Source": "Firma.PortalWWW",
   "BasePath": "_content/Firma.PortalWWW",
   "Mode": "Default",
@@ -430,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p15w0xjs2k",
-      "Integrity": "c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=",
+      "Fingerprint": "dafkofb3eh",
+      "Integrity": "m1H4m2IoWQrJuGI2MNEW0Xdq5TjvwqmW+L3x/9GFgdI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\create.css"
@@ -472,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pxvozttgmi",
-      "Integrity": "rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=",
+      "Fingerprint": "b540e9cqgc",
+      "Integrity": "ARlS7BNBf6zu3u7o+27zIY6GGGmkcX5lNaU9Ulbdvr4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\iphone.css"
@@ -3250,7 +3250,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2026"
+          "Value": "2084"
         },
         {
           "Name": "Content-Type",
@@ -3258,11 +3258,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=\""
+          "Value": "\"m1H4m2IoWQrJuGI2MNEW0Xdq5TjvwqmW+L3x/9GFgdI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 17:46:51 GMT"
+          "Value": "Sun, 25 May 2025 11:28:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3272,12 +3272,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs="
+          "Value": "sha256-m1H4m2IoWQrJuGI2MNEW0Xdq5TjvwqmW+L3x/9GFgdI="
         }
       ]
     },
     {
-      "Route": "css/create.p15w0xjs2k.css",
+      "Route": "css/create.dafkofb3eh.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\create.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3287,7 +3287,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2026"
+          "Value": "2084"
         },
         {
           "Name": "Content-Type",
@@ -3295,11 +3295,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=\""
+          "Value": "\"m1H4m2IoWQrJuGI2MNEW0Xdq5TjvwqmW+L3x/9GFgdI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 17:46:51 GMT"
+          "Value": "Sun, 25 May 2025 11:28:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3309,7 +3309,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p15w0xjs2k"
+          "Value": "dafkofb3eh"
         },
         {
           "Name": "label",
@@ -3317,7 +3317,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs="
+          "Value": "sha256-m1H4m2IoWQrJuGI2MNEW0Xdq5TjvwqmW+L3x/9GFgdI="
         }
       ]
     },
@@ -3404,6 +3404,51 @@
       ]
     },
     {
+      "Route": "css/iphone.b540e9cqgc.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARlS7BNBf6zu3u7o+27zIY6GGGmkcX5lNaU9Ulbdvr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 18:56:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b540e9cqgc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/iphone.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARlS7BNBf6zu3u7o+27zIY6GGGmkcX5lNaU9Ulbdvr4="
+        }
+      ]
+    },
+    {
       "Route": "css/iphone.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
       "Selectors": [],
@@ -3414,7 +3459,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1593"
+          "Value": "2784"
         },
         {
           "Name": "Content-Type",
@@ -3422,11 +3467,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=\""
+          "Value": "\"ARlS7BNBf6zu3u7o+27zIY6GGGmkcX5lNaU9Ulbdvr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 13:15:27 GMT"
+          "Value": "Sat, 17 May 2025 18:56:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3436,52 +3481,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I="
-        }
-      ]
-    },
-    {
-      "Route": "css/iphone.pxvozttgmi.css",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\PIAB\\Firma\\Firma\\Firma.PortalWWW\\wwwroot\\css\\iphone.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1593"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 13:15:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pxvozttgmi"
-        },
-        {
-          "Name": "label",
-          "Value": "css/iphone.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I="
+          "Value": "sha256-ARlS7BNBf6zu3u7o+27zIY6GGGmkcX5lNaU9Ulbdvr4="
         }
       ]
     },
@@ -3672,7 +3672,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 17:38:07 GMT"
+          "Value": "Sun, 25 May 2025 11:24:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3717,7 +3717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 17:38:07 GMT"
+          "Value": "Sun, 25 May 2025 11:24:59 GMT"
         },
         {
           "Name": "Cache-Control",

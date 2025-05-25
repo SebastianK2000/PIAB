@@ -6,7 +6,7 @@
 }
 
 @section Styles {
-    <link rel="stylesheet" href="~/css/homer.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
 }
 
 <div class="container py-5">
@@ -19,11 +19,50 @@
                 <div class="card shadow-sm h-100">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">@item.Tytul</h5>
-                        <p class="card-text text-muted flex-grow-1">@item.Content</p>
-                        <a href="#" class="btn btn-outline-primary mt-auto">Read more</a>
+                        <p class="card-text text-muted flex-grow-1 text-truncate" style="max-height: 4.5em;">@item.Content</p>
+                        <a href="#"
+                           class="btn btn-outline-primary mt-auto"
+                           data-bs-toggle="modal"
+                           data-bs-target="#newsModal"
+                           data-title="@item.Tytul"
+                           data-content="@Html.Raw(item.Content)">
+                            Read more
+                        </a>
                     </div>
                 </div>
             </div>
         }
     </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="newsModalLabel">News Title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="newsModalBody">
+                News content here.
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const modal = document.getElementById('newsModal');
+        modal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const title = button.getAttribute('data-title');
+            const content = button.getAttribute('data-content');
+
+            const modalTitle = modal.querySelector('.modal-title');
+            const modalBody = modal.querySelector('.modal-body');
+
+            modalTitle.textContent = title;
+            modalBody.innerHTML = content;
+        });
+    </script>
+}

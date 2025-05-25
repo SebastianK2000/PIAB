@@ -318,8 +318,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p15w0xjs2k</Fingerprint>
-      <Integrity>c8oazy4I2bq41n0/ni84lJI8I5HjtXeL8wZJCdsKSfs=</Integrity>
+      <Fingerprint>dafkofb3eh</Fingerprint>
+      <Integrity>m1H4m2IoWQrJuGI2MNEW0Xdq5TjvwqmW+L3x/9GFgdI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\create.css'))</OriginalItemSpec>
@@ -354,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pxvozttgmi</Fingerprint>
-      <Integrity>rR7OcVretD9Sq8v1XGTGUKkPPxEMyWEw1rMXW6yiB8I=</Integrity>
+      <Fingerprint>b540e9cqgc</Fingerprint>
+      <Integrity>ARlS7BNBf6zu3u7o+27zIY6GGGmkcX5lNaU9Ulbdvr4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\iphone.css'))</OriginalItemSpec>

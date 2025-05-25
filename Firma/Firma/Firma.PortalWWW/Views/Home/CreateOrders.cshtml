@@ -1,0 +1,82 @@
+﻿@model Firma.Data.Data.Sklep.Orders
+
+@{
+    ViewData["Title"] = "Create Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/orders.css" />
+}
+
+<div class="form-container">
+    <h1 class="form-title">Create Order</h1>
+
+    <form asp-action="CreateOrders" method="post">
+        <input type="hidden" asp-for="IdProducts" />
+
+        <div class="mb-3">
+            <label class="form-label">Product</label>
+            @if (Model.Product != null)
+            {
+                <div class="mb-3">
+                    <label class="form-label"><strong>Price:</strong></label>
+                    <p>@Model.Product.Price.ToString("0.00") zł</p>
+                </div>
+            }
+            <input class="form-control" value="@Model.Product?.Name" disabled />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Number" class="form-label"></label>
+            <input asp-for="Number" class="form-control" />
+            <span asp-validation-for="Number" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="User" class="form-label"></label>
+            <input asp-for="User" class="form-control" />
+            <span asp-validation-for="User" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="PaymentMethod" class="form-label"></label>
+            <select asp-for="PaymentMethod" class="form-select">
+                <option value="Card">Card</option>
+                <option value="Blik">Blik</option>
+                <option value="Cash">Cash</option>
+            </select>
+            <span asp-validation-for="PaymentMethod" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DeliveryMethod" class="form-label"></label>
+            <select asp-for="DeliveryMethod" class="form-select">
+                <option value="Courier">Courier</option>
+                <option value="Parcel Locker">Parcel Locker</option>
+                <option value="In-Store">In-Store</option>
+            </select>
+            <span asp-validation-for="DeliveryMethod" class="text-danger small"></span>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-success px-4">Place Order</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

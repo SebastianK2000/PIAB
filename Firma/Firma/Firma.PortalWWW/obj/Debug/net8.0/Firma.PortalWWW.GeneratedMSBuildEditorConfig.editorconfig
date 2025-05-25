@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Home/CreateOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Home/Mac.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Home/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Home/Privacy.cshtml]
@@ -80,22 +88,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/Ipad.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXElwYWQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/Iphone.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXElwaG9uZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/Mac.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1hYy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/News.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5ld3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/Odnośniki.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9kbm/Fm25pa2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,14 +102,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/SelectProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlbGVjdFByb2R1Y3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/Support.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN1cHBvcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/Watch.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFdhdGNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Desktop/PIAB/Firma/Firma/Firma.PortalWWW/Views/Shared/_ValidationScriptsPartial.cshtml]

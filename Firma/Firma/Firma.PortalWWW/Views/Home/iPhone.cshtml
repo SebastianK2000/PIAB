@@ -22,9 +22,64 @@
                 </div>
                 <div class="p-and-button">
                     <p class="price">$ @item.Price</p>
-                    <a href="#" class="btn">Buy</a>
+                    <a href="javascript:void(0);" class="btn"
+                       onclick="openModal('@item.Name', '@item.ImageUrl', '@item.Price')">
+                        Buy
+                    </a>
                 </div>
             </div>
         }
     </div>
 </div>
+
+<!-- Modal -->
+<div id="product-modal" class="modal hidden">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modal-name"></h2>
+        <img id="modal-image" src="" alt="" />
+        <p id="modal-price"></p>
+        <form id="modal-form" method="post" action="/Home/CreateOrders">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="ProductName" id="modal-product-name" />
+            <input type="hidden" name="ProductImage" id="modal-product-image" />
+            <input type="hidden" name="ProductPrice" id="modal-product-price" />
+            <button type="submit" class="btn">Buy</button>
+        </form>
+    </div>
+</div>
+<div id="blur-overlay" class="blur-overlay hidden"></div>
+<script>
+    function openModal(name, imageUrl, price) {
+        const modal = document.getElementById('product-modal');
+        const overlay = document.getElementById('blur-overlay');
+
+        document.getElementById('modal-name').innerText = name;
+        document.getElementById('modal-image').src = imageUrl;
+        document.getElementById('modal-image').alt = name;
+        document.getElementById('modal-price').innerText = `$ ${price}`;
+
+        document.getElementById('modal-product-name').value = name;
+        document.getElementById('modal-product-image').value = imageUrl;
+        document.getElementById('modal-product-price').value = price;
+
+        modal.classList.remove('hidden');
+        overlay.classList.remove('hidden');
+
+        modal.style.display = 'block';
+        overlay.style.display = 'block';
+        modal.style.visibility = 'visible';
+        modal.style.opacity = '1';
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('product-modal');
+        const overlay = document.getElementById('blur-overlay');
+
+        modal.classList.add('hidden');
+        overlay.classList.add('hidden');
+
+        modal.style.display = 'none';
+        overlay.style.display = 'none';
+    }
+</script>
