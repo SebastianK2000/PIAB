@@ -120,7 +120,7 @@ namespace Firma.PortalWWW.Controllers
             return View(support);
         }
 
-        public IActionResult Odnoœniki()
+        public IActionResult Odnosniki()
         {
             var model = _dbContext.Strona.ToList();
             return View(model);
